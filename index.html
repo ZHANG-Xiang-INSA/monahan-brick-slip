@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 Monahan Avenue · HA23007 — Brick Slip Setting-Out &amp; Quantity Schedule</title>
+<meta name="description" content="3 Monahan Avenue, Purley (HA23007) — brick slip setting-out and quantity schedule.">
+<link rel="stylesheet" href="css/site.css?b=27">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="site-nav">
+  <div class="nav-in">
+    <a class="nav-brand mono" href="#top">HA23007 · 3 MONAHAN AVENUE</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#summary" data-i18n="nav_summary">项目总览</a>
+      <a href="#model" data-i18n="nav_model">三维模型</a>
+      <a href="#elevations" data-i18n="nav_elev">立面图册</a>
+      <a href="#cutting" data-i18n="nav_cutting">切割图</a>
+      <a href="#materials" data-i18n="nav_materials">材料用量</a>
+    </nav>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="zh" class="active">中</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+    <button type="button" class="btn btn-ghost btn-icon nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h11"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ================= HERO = THE MODEL (full-bleed contre-jour cover) ================= -->
+  <section class="hero3d" id="model">
+    <div class="stage" id="viewer-shell">
+      <div class="stage-head" aria-hidden="false">
+        <p class="sh-kicker mono">HA23007 · PURLEY · LONDON</p>
+        <h1 class="sh-title serif">3 Monahan Avenue</h1>
+        <p class="sh-sub" data-i18n="foot_doc">砖片排布定位与工程量清单</p>
+      </div>
+        <div id="viewer3d">
+          <div class="stage-toolbar">
+            <div class="seg seg--dark" id="v-seg" role="group" aria-label="Layers">
+              <button type="button" class="active" data-view="all" data-i18n="seg_all">全部</button>
+              <button type="button" data-view="red" data-i18n="layer_red">红砖</button>
+              <button type="button" data-view="black" data-i18n="layer_black">黑砖</button>
+              <button type="button" data-view="clip" data-i18n="layer_clips">卡扣</button>
+            </div>
+            <div class="stage-actions">
+              <label class="v-chk" for="v-labels">
+                <input type="checkbox" id="v-labels" checked>
+                <span data-i18n="v_labels">标注</span>
+              </label>
+              <button type="button" class="btn btn-ghost btn-ghost--dark" id="v-reset">
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.8 8a5.2 5.2 0 1 0 1.5-3.65M2.8 2.6v2.6h2.6"/></svg>
+                <span data-i18n="btn_reset">重置</span>
+              </button>
+              <button type="button" class="btn btn-ghost btn-ghost--dark" id="v-all">
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.6" y="2.6" width="10.8" height="10.8" rx="1.4"/><path d="M8 5.4v5.2M5.4 8h5.2"/></svg>
+                <span data-i18n="btn_fit">适应窗口</span>
+              </button>
+              <button type="button" class="btn btn-ghost btn-ghost--dark" id="v-fs">
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 2.6h3.8v3.8M6.4 13.4H2.6V9.6M13.4 9.6v3.8H9.6M2.6 6.4V2.6h3.8"/></svg>
+                <span data-i18n="btn_fs">全屏</span>
+              </button>
+            </div>
+          </div>
+          <div class="v-overlay" id="v-overlay">
+            <div class="v-skel" id="v-skel">
+              <svg class="v-skel-house" viewBox="0 0 230 140" width="230" height="140" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true">
+                <path d="M28 128V54l44-30 44 30v74"/>
+                <path d="M116 128V76h64v52"/>
+                <path d="M52 128V96h20v32M132 100h20v16h-20zM14 128h204"/>
+              </svg>
+              <p class="v-msg mono" id="v-msg" data-i18n="v_loading">正在构建模型几何…</p>
+              <span class="v-progress"><i></i></span>
+            </div>
+            <div class="v-fail" id="v-fail">
+              <div class="v-fail-plate">
+                <img src="svg/brick_C_NW.svg" alt="NW front elevation — static preview" width="1784" height="473">
+                <div class="v-fail-cap mono"><span data-i18n="v_static_cap">RED-03 · 西北正立面（入口）· 静态预览</span><span>1 : 100</span></div>
+              </div>
+              <p class="v-fail-msg" data-i18n="v_fail">三维视图不可用（WebGL 或网络受限），已显示静态预览。</p>
+              <a class="btn btn-secondary" href="#elevations" data-i18n="v_fail_link">查看立面图</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- ================= DATA BAND (floating glass card over the canvas edge) ================= -->
+  <section class="sumband" id="summary">
+    <div class="wrap hero-index">
+      <div class="sb-toggle">
+        <p class="sb-cap mono" data-i18n="hi_basis">用量口径 · BASIS</p>
+        <div class="basis" id="hi-seg" role="group" aria-label="Surplus basis — click to switch">
+          <button type="button" class="active" data-mult="1">
+            <span class="bs-check" aria-hidden="true"></span>
+            <span class="bs-txt"><b data-i18n="hi_exact">刚好</b><i data-i18n="hi_exact_sub">EXACT</i></span>
+          </button>
+          <button type="button" data-mult="1.15">
+            <span class="bs-check" aria-hidden="true"></span>
+            <span class="bs-txt"><b data-i18n="hi_surplus">+15%</b><i data-i18n="hi_surplus_sub">含富余</i></span>
+          </button>
+        </div>
+        <p class="sb-hint" data-i18n="hi_hint">点击切换 · 数量实时更新</p>
+      </div>
+      <div class="sb-grid">
+        <a class="sb-item" href="#elevations">
+          <span class="sb-v serif"><span class="hi-q" data-base="7697">7,697</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-l" data-i18n="s_total">总砖片</span>
+        </a>
+        <a class="sb-item" href="#face/RED-01">
+          <span class="sb-v serif"><span class="hi-q" data-base="5964">5,964</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-l"><span class="sw" style="--sw:#A54132"></span><span data-i18n="s_red">红砖</span></span>
+        </a>
+        <a class="sb-item" href="#face/BLACK-01">
+          <span class="sb-v serif"><span class="hi-q" data-base="1733">1,733</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-l"><span class="sw" style="--sw:#242424"></span><span data-i18n="s_black">黑砖</span></span>
+        </a>
+        <a class="sb-item" href="#cutting">
+          <span class="sb-v serif"><span class="hi-q" data-base="2215">2,215</span><i data-i18n="u_ea">件</i></span>
+          <span class="sb-l"><span class="sw" style="--sw:#68737D"></span><span data-i18n="s_clips">卡扣</span></span>
+        </a>
+        <a class="sb-item" href="#cutting">
+          <span class="sb-v serif">11,782<i data-i18n="u_ea">件</i></span>
+          <span class="sb-l" data-i18n="s_screws">螺钉</span>
+        </a>
+        <a class="sb-item" href="#elevations">
+          <span class="sb-v serif">98.42<i>m²</i></span>
+          <span class="sb-l" data-i18n="s_area">铺贴面积</span>
+        </a>
+      </div>
+    </div>
+    <div class="wrap stage-foot">
+      <span class="chip" data-i18n="v_help">左键拖动旋转 · 滚轮缩放 · 右键平移 · 点击墙面跳转对应立面</span>
+      <span class="chip"><span id="v-count" class="mono">—</span>&nbsp;<span data-i18n="v_count">构件</span></span>
+    </div>
+  </section>
+
+  <!-- ================= ELEVATION EXPLORER ================= -->
+  <section class="sec" id="elevations">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="kicker mono">ELEVATIONS</p>
+        <h2 data-i18n="elev_title">立面图册</h2>
+        <p class="sec-sub" data-i18n="elev_sub">11 个立面 · 排砖图与卡扣图</p>
+      </header>
+      <div class="workbench">
+        <aside class="panel face-panel">
+          <div class="fp-tools">
+            <input type="search" id="face-search" data-i18n-ph="search_ph" placeholder="搜索立面…" autocomplete="off">
+            <div class="seg seg--small" id="face-filter" role="group" aria-label="Filter">
+              <button type="button" class="active" data-f="all" data-i18n="flt_all">全部</button>
+              <button type="button" data-f="red" data-i18n="flt_red">红砖</button>
+              <button type="button" data-f="black" data-i18n="flt_black">黑砖</button>
+            </div>
+          </div>
+          <div class="face-list" id="face-list-items"></div>
+        </aside>
+
+        <div class="panel draw-panel">
+          <div class="fm-head">
+            <div class="fm-title" id="fm-title">
+              <p class="fm-code mono" id="fm-code">RED-01</p>
+              <h3 id="fm-zh">A墙 — 东北侧立面（楼梯侧）</h3>
+              <p class="fm-en" id="fm-en">Wall A — NE Side Elevation (Stair Side)</p>
+            </div>
+            <div class="fm-nav">
+              <button type="button" class="btn btn-ghost btn-icon" id="fm-prev" aria-label="Previous face">
+                <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.8 3.2 5 8l4.8 4.8"/></svg>
+              </button>
+              <button type="button" class="btn btn-ghost btn-icon" id="fm-next" aria-label="Next face">
+                <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3.2 11 8l-4.8 4.8"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="fm-tools">
+            <div class="seg" id="fm-seg" role="group" aria-label="Drawing layer">
+              <button type="button" class="active" data-layer="bricks" data-i18n="seg_bricks">砖面排布</button>
+              <button type="button" data-layer="clips" data-i18n="seg_clips">卡扣排布</button>
+            </div>
+            <div class="fm-zoom">
+              <button type="button" class="btn btn-ghost btn-icon" id="fm-zout" aria-label="Zoom out">
+                <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="7" r="4.6"/><path d="M13.6 13.6 10.3 10.3M5 7h4"/></svg>
+              </button>
+              <button type="button" class="btn btn-ghost btn-icon" id="fm-zin" aria-label="Zoom in">
+                <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="7" r="4.6"/><path d="M13.6 13.6 10.3 10.3M5 7h4M7 5v4"/></svg>
+              </button>
+              <button type="button" class="btn btn-ghost" id="fm-fit">
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.6" y="2.6" width="10.8" height="10.8" rx="1.4"/><path d="M8 5.4v5.2M5.4 8h5.2"/></svg>
+                <span data-i18n="btn_fit_view">适应</span>
+              </button>
+              <button type="button" class="btn btn-ghost" id="fm-open-dv">
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 2.6h3.8v3.8M6.4 13.4H2.6V9.6M13.4 9.6v3.8H9.6M2.6 6.4V2.6h3.8"/></svg>
+                <span data-i18n="btn_fs">全屏</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="fm-stage" id="fm-drawing">
+            <div class="fm-plane" id="fm-plane"><img id="fm-img" src="svg/brick_A_NE.svg" alt="RED-01"></div>
+            <span class="fd-hint mono" data-i18n="fd_hint">滚轮缩放 · 拖拽平移 · 双击放大</span>
+          </div>
+        </div>
+
+        <aside class="panel rail">
+          <p class="rail-cap kicker mono" data-i18n="rail_cap">本立面参数</p>
+          <div class="rail-stats" id="fm-stats"></div>
+          <button type="button" class="btn btn-secondary btn-block" id="rail-schedule" data-i18n="btn_schedule">打开工程量明细表</button>
+        </aside>
+      </div>
+
+      <div class="tbl-wrap" id="tbl-wrap">
+        <div class="panel tbl-panel">
+          <div class="tbl-head">
+            <p class="kicker mono" data-i18n="tbl_cap">工程量明细表</p>
+            <button type="button" class="btn btn-ghost" id="tbl-close" data-i18n="btn_collapse">收起</button>
+          </div>
+          <div class="tbl-grid">
+            <div class="tbl-scroll" id="tbl-bricks-host"></div>
+            <div class="tbl-scroll" id="tbl-clips-host"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CUTTING ================= -->
+  <section class="sec" id="cutting">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="kicker mono">CUTTING DRAWINGS</p>
+        <h2 data-i18n="cut_title">切割图</h2>
+        <p class="sec-sub" data-i18n="cut_sub">1:1 切割排样 · SVG 矢量文件</p>
+      </header>
+      <div class="cut-grid">
+        <article class="panel cut-card">
+          <div class="cut-fig" id="cut-fig-1">
+            <img src="svg/cut_brick_types.svg" alt="Brick cutting types sheet" loading="lazy" width="2134" height="1736">
+          </div>
+          <div class="cut-body">
+            <p class="cut-code mono">CUT-01</p>
+            <h3 data-i18n="cut_bricks">砖片切割排样图</h3>
+            <dl class="cut-meta">
+              <div><dt data-i18n="ct_types">型号数</dt><dd class="mono">46</dd></div>
+              <div><dt data-i18n="ct_scale">比例</dt><dd class="mono">1 : 1</dd></div>
+              <div><dt data-i18n="ct_format">格式</dt><dd class="mono">SVG</dd></div>
+            </dl>
+            <div class="cut-actions">
+              <button type="button" class="btn btn-primary" id="cut-open-1" data-i18n="btn_open_dwg">打开图纸</button>
+              <a class="btn btn-secondary" href="svg/cut_brick_types.svg" download data-i18n="btn_download">下载 SVG</a>
+            </div>
+          </div>
+        </article>
+        <article class="panel cut-card">
+          <div class="cut-fig" id="cut-fig-2">
+            <img src="svg/cut_clip_types.svg?b=27" alt="Clip cutting types sheet" loading="lazy" width="2000" height="2218">
+          </div>
+          <div class="cut-body">
+            <p class="cut-code mono">CUT-02</p>
+            <h3 data-i18n="cut_clips">卡扣切割排样图</h3>
+            <dl class="cut-meta">
+              <div><dt data-i18n="ct_types">型号数</dt><dd class="mono">10</dd></div>
+              <div><dt data-i18n="ct_scale">比例</dt><dd class="mono" data-i18n="nts">示意 NTS</dd></div>
+              <div><dt data-i18n="ct_format">格式</dt><dd class="mono">SVG</dd></div>
+            </dl>
+            <div class="cut-actions">
+              <button type="button" class="btn btn-primary" id="cut-open-2" data-i18n="btn_open_dwg">打开图纸</button>
+              <a class="btn btn-secondary" href="svg/cut_clip_types.svg?b=27" download data-i18n="btn_download">下载 SVG</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="cut-note" data-i18n="cut_note">注：卡扣为成型钢导轨（M 形断面：底面 68 + 腿 15 + 内钩唇 10，向上开口 62.5，展开料 118，t=0.25），非平钢片；各型号开孔位置见上图。</p>
+    </div>
+  </section>
+
+  <!-- ================= MATERIALS (asymmetric chapter: sticky lead + tables) ================= -->
+  <section class="sec" id="materials">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="kicker mono">MATERIALS</p>
+        <h2 data-i18n="mat_title">材料用量</h2>
+        <p class="sec-sub" data-i18n="mat_sub">按 47mm 小砖配方 · 每块砖切成 2 片砖片 · 可切换刚好用量 / +15% 富余</p>
+      </header>
+      <div class="mat-grid">
+        <aside class="mat-side">
+          <p class="mat-lede serif"><span class="ml-a">47</span><span class="ml-arrow" aria-hidden="true">→</span><span class="ml-b">2 × 22</span></p>
+          <p class="mat-lede-cap" data-i18n="mat_lede">每块 47mm 砖坯切除 3mm 锯缝，得到两片 22mm 砖片 — 做砖数 = 等效整砖 ÷ 2。</p>
+          <div class="fm-tools mat-seg-row">
+            <div class="seg" id="mat-seg" role="group" aria-label="Surplus mode">
+              <button type="button" class="active" data-mult="1" data-i18n="mat_exact">刚好用量</button>
+              <button type="button" data-mult="1.15" data-i18n="mat_surplus">+15% 富余</button>
+            </div>
+          </div>
+          <p class="cut-note" data-i18n="mat_note">红砖 = B2 + R-Y101-3 + D1；黑砖 = B-3。B2 由 Wuhan 提供（不计材料用量）。配方以每块 47mm 砖计；砖切掉中间 3mm 后成 2 片 22mm 砖片，故做砖数 = 等效整砖 ÷ 2。</p>
+        </aside>
+        <div class="mat-tables">
+          <div class="panel tbl-panel"><div class="tbl-scroll" id="mat-qty-host"></div></div>
+          <div class="panel tbl-panel"><div class="tbl-scroll" id="mat-recipe-host"></div></div>
+          <div class="panel tbl-panel"><div class="tbl-scroll" id="mat-use-host"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER (colophon) ================= -->
+<footer>
+  <div class="foot-in">
+    <div class="foot-brand">
+      <p class="fb-title serif">3 Monahan Avenue</p>
+      <p class="fb-sub" data-i18n="foot_doc">砖片排布定位与工程量清单</p>
+    </div>
+    <dl class="foot-cols">
+      <div><dt class="mono">PROJECT</dt><dd>HA23007 · Purley · London</dd></div>
+      <div><dt class="mono">ARCHITECT</dt><dd>Habitat+ Architects</dd></div>
+      <div><dt class="mono">TAKE-OFF</dt><dd>7,697 slips · 2,215 clips · 98.42 m²</dd></div>
+    </dl>
+  </div>
+  <p class="foot-ghost serif" aria-hidden="true">HA23007</p>
+</footer>
+
+<!-- ================= DRAWING VIEWER OVERLAY ================= -->
+<div class="dv" id="dv" role="dialog" aria-modal="true">
+  <div class="dv-bar">
+    <span class="dv-code mono" id="dv-code">RED-01</span>
+    <span class="dv-name" id="dv-name">&nbsp;<span id="dv-sub"></span></span>
+    <div class="dv-btns">
+      <button type="button" class="btn btn-ghost" id="dv-prev" data-i18n="dv_prev">上一张</button>
+      <span class="mono dv-idx" id="dv-idx">1 / 24</span>
+      <button type="button" class="btn btn-ghost" id="dv-next" data-i18n="dv_next">下一张</button>
+      <button type="button" class="btn btn-ghost" id="dv-reset" data-i18n="dv_reset">重置</button>
+      <a class="btn btn-secondary" id="dv-download" href="#" download data-i18n="dv_download">下载 SVG</a>
+      <button type="button" class="btn btn-primary" id="dv-close" data-i18n="dv_close">关闭</button>
+    </div>
+  </div>
+  <div class="dv-stage" id="dv-stage">
+    <div class="dv-plane" id="dv-plane"><img id="dv-img" src="" alt="drawing"></div>
+  </div>
+  <div class="dv-foot">
+    <span data-i18n="dv_help">滚轮缩放 · 拖拽平移 · 双击放大 · Esc 关闭</span>
+    <span class="mono">HA23007</span>
+  </div>
+</div>
+
+<!-- data (script-src, works on file://) -->
+<script src="data/summary.js?b=27"></script>
+<script src="data/faces.js?b=27"></script>
+<script src="data/model3d_v2.js?b=27"></script>
+<script src="data/materials.js?b=27"></script>
+<!-- three.js r128 classic build; on failure the viewer falls back to the static preview -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/i18n.js?b=27"></script>
+<script src="js/drawing.js?b=27"></script>
+<script src="js/viewer3d.js?b=27"></script>
+<script src="js/main.js?b=27"></script>
+</body>
+</html>
