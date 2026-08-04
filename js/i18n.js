@@ -46,7 +46,7 @@
 
     // 3D viewer
     model_title:   { zh: "三维模型", en: "3D Model" },
-    model_sub:     { zh: "7,525 砖片 + 2,170 卡扣 · 逐片建模，可交互查看", en: "7,525 slips + 2,170 clips · modelled piece by piece, fully interactive" },
+    model_sub:     { zh: "7,525 砖片 + 2,184 卡扣 · 逐片建模，可交互查看", en: "7,525 slips + 2,184 clips · modelled piece by piece, fully interactive" },
     seg_all:       { zh: "全部", en: "All" },
     layer_red:     { zh: "红砖", en: "Red" },
     layer_black:   { zh: "黑砖", en: "Black" },
