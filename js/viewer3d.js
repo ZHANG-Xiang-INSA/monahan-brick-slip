@@ -199,8 +199,13 @@
     // step + coincident internal faces). Pair them by course + adjacency and
     // extrude the plan-union L instead: identical enclosed solid, continuous
     // edges, one shade per physical piece.
+    // 2026-08-04: welding is OFF. Round 2 replaced the one-piece L slips with flat
+    // pairs precisely because L pieces are not cut for this job, so a viewer that
+    // draws L-shaped quoins contradicts the cutting schedule. Corners now render as
+    // the two flat slips they are.
+    var WELD_CORNERS = false;
     var weldSkip = {}, weldPoly = {}, cornerStats = { welded: 0, solo: 0 }, cornerTotal = 0;
-    (function () {
+    if (WELD_CORNERS) (function () {
       var rects = [], tol = 1e-4, ci, cj, cb, cp;
       for (ci = 0; ci < DATA.bricks.length; ci++) {
         cb = DATA.bricks[ci];

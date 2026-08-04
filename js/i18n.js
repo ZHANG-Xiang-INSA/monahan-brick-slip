@@ -46,7 +46,7 @@
 
     // 3D viewer
     model_title:   { zh: "三维模型", en: "3D Model" },
-    model_sub:     { zh: "7,697 砖片 + 2,215 卡扣 · 逐片建模，可交互查看", en: "7,697 slips + 2,215 clips · modelled piece by piece, fully interactive" },
+    model_sub:     { zh: "7,525 砖片 + 2,170 卡扣 · 逐片建模，可交互查看", en: "7,525 slips + 2,170 clips · modelled piece by piece, fully interactive" },
     seg_all:       { zh: "全部", en: "All" },
     layer_red:     { zh: "红砖", en: "Red" },
     layer_black:   { zh: "黑砖", en: "Black" },
@@ -101,7 +101,7 @@
     cut_sub:       { zh: "1:1 切割排样 · SVG 矢量文件", en: "1:1 cutting layouts · SVG vector files" },
     cut_bricks:    { zh: "砖片切割排样图", en: "Brick Cutting Schedule" },
     cut_clips:     { zh: "卡扣成型与切割图", en: "Guiding-Rail Clip — Forming & Cutting" },
-    cut_bricks_sub:{ zh: "46 种砖型 · 1:1 真实轮廓", en: "46 brick types · true 1:1 outlines" },
+    cut_bricks_sub:{ zh: "44 种砖型 · 1:1 真实轮廓", en: "44 brick types · true 1:1 outlines" },
     cut_clips_sub: { zh: "10 型 · M 形成型钢 · 展开料 118 · 含 40° 斜切", en: "10 types · formed M-section · 118 blank · incl. 40° mitres" },
     ct_types:      { zh: "型号数", en: "Types" },
     ct_scale:      { zh: "比例", en: "Scale" },

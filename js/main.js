@@ -44,7 +44,7 @@
   ];
   // drawing sheet sizes (viewBox px) — the elevation SVGs carry no width/height
   var SVG_SIZE = {
-    A_NE: [1784, 423], B_SW: [1784, 485], C_NW: [1784, 473], D_SE: [1784, 810],
+    A_NE: [1784, 423], B_SW: [1784, 485], C_NW: [1784, 473], D_SE: [1784, 941],
     black_gable_front: [919, 998], black_slope_L: [810, 998], black_slope_R: [810, 998],
     black_side_outer_L: [600, 998], black_side_outer_R: [600, 998],
     black_side_inner_L: [610, 998], black_side_inner_R: [610, 998]
@@ -89,7 +89,7 @@
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_clip"), src: f.clipSvg, key: f.code + "|clips", w: f.size[0], h: f.size[1] });
     });
     out.push({ code: "CUT-01", name: T("cut_bricks"), sub: T("cut_bricks_sub"), src: "svg/cut_brick_types.svg", key: "cut1", w: 2134, h: 1736 });
-    out.push({ code: "CUT-02", name: T("cut_clips"), sub: T("cut_clips_sub"), src: "svg/cut_clip_types.svg?b=12", key: "cut2", w: 2000, h: 2218 });
+    out.push({ code: "CUT-02", name: T("cut_clips"), sub: T("cut_clips_sub"), src: "svg/cut_clip_types.svg?b=30", key: "cut2", w: 2000, h: 2218 });
     return out;
   }
   function openViewerAt(key) {
