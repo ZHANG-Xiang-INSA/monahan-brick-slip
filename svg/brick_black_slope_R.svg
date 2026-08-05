@@ -106,19 +106,19 @@
 <polygon points="294.3,936.0 356.0,936.0 356.0,924.4 294.3,924.4" fill="#7F4A39" stroke="#5a5a5a" stroke-width="0.3"/>
 <text x="380" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="380" y="104" width="15" height="11" fill="#1F5F8B" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="114" font-size="11.5" fill="#222">B21  215×65  ×60</text>
+<text x="401" y="114" font-size="11.5" fill="#222">B15  215×65  ×60</text>
 <rect x="380" y="123" width="15" height="11" fill="#904800" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="133" font-size="11.5" fill="#222">B24  132×65  ×12</text>
+<text x="401" y="133" font-size="11.5" fill="#222">B18  132×65  ×12</text>
 <rect x="380" y="142" width="15" height="11" fill="#B85C00" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="152" font-size="11.5" fill="#222">B27  108×65  ×12</text>
+<text x="401" y="152" font-size="11.5" fill="#222">B21  108×65  ×12</text>
 <rect x="380" y="161" width="15" height="11" fill="#541C30" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="171" font-size="11.5" fill="#222">B30  215×25  ×2</text>
+<text x="401" y="171" font-size="11.5" fill="#222">B24  215×25  ×2</text>
 <rect x="380" y="180" width="15" height="11" fill="#7F4A39" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="190" font-size="11.5" fill="#222">B31  132×25  ×1</text>
+<text x="401" y="190" font-size="11.5" fill="#222">B25  132×25  ×1</text>
 <rect x="380" y="199" width="15" height="11" fill="#4D602E" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="209" font-size="11.5" fill="#222">B33  108×25  ×1</text>
+<text x="401" y="209" font-size="11.5" fill="#222">B27  108×25  ×1</text>
 <rect x="380" y="218" width="15" height="11" fill="#115F5A" stroke="#555" stroke-width="0.4"/>
-<text x="401" y="228" font-size="11.5" fill="#222">B35  25×65  ×12</text>
+<text x="401" y="228" font-size="11.5" fill="#222">B29  25×65  ×12</text>
 <rect x="30" y="970.0" width="116.4" height="6" fill="#111"/>
 <rect x="146.4" y="970.0" width="116.4" height="6" fill="#999"/>
 <text x="30" y="966.0" font-size="11" fill="#111">0</text>

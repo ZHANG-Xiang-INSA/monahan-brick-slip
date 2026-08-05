@@ -13,10 +13,10 @@ window.DATA_materials = {
   brick_mm: 47, slip_mm: 22, kerf_mm: 3, surplus: 0.15,
   mats: ["Sand", "Lime", "Additives", "O", "RY101", "B"],
   rows: [
-    { id: "B2",       colour: "red",   pct: 10,  whole: 539,  half: 48,  equiv: 563,    wuhan: true },
-    { id: "R-Y101-3", colour: "red",   pct: 40,  whole: 2155, half: 191, equiv: 2250.5,
+    { id: "B2",       colour: "red",   pct: 10,  whole: 549,  half: 32,  equiv: 565,    wuhan: true },
+    { id: "R-Y101-3", colour: "red",   pct: 40,  whole: 2195, half: 130, equiv: 2260,
       recipe: { Sand: 1.009556, Lime: 0.135193, Additives: 0.201382, RY101: 0.036637 } },
-    { id: "D1",       colour: "red",   pct: 50,  whole: 2693, half: 239, equiv: 2812.5,
+    { id: "D1",       colour: "red",   pct: 50,  whole: 2743, half: 162, equiv: 2824,
       recipe: { Sand: 1.007271, Lime: 0.134887, Additives: 0.200927, O: 0.029064, RY101: 0.009766, B: 0.000488 } },
     { id: "B-3",      colour: "black", pct: 100, whole: 1230, half: 503, equiv: 1481.5,
       recipe: { Sand: 1.009556, Lime: 0.135193, Additives: 0.201382, B: 0.036637 } }
