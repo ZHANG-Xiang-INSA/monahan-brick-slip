@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 480" font-family="Arial,'Noto Sans SC',sans-serif">
 <rect x="0" y="0" width="1784" height="480" fill="#ffffff"/>
 <text x="30" y="30" font-size="20" font-weight="bold" fill="#111">Clip layout 卡扣排布 — Wall B — SW side elevation</text>
-<text x="30" y="54" font-size="13" fill="#444">B墙 — 西南侧立面 · 713 clips 卡扣 · 3066 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
+<text x="30" y="54" font-size="13" fill="#444">B墙 — 西南侧立面 · 712 clips 卡扣 · 3063 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
 <text x="30" y="72" font-size="11" fill="#888">3 Monahan Ave (HA23007) · black-corners-flat revision · dims mm</text>
 <rect x="30.0" y="86.0" width="1300.0" height="332.7" fill="#f4f2ee" stroke="#bbb" stroke-width="0.6"/>
 <polygon points="55.7,411.3 69.8,411.3 69.8,418.7 55.7,418.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -2561,7 +2561,6 @@
 <polygon points="1252.8,101.7 1309.9,101.7 1309.9,93.9 1252.8,93.9" fill="#184A6C" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1310.5,101.7 1321.9,101.7 1321.9,93.9 1310.5,93.9" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1322.5,101.7 1328.2,101.7 1328.2,93.9 1322.5,93.9" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="32.3,93.8 66.6,93.8 66.6,86.0 32.3,86.0" fill="#3F7A3F" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="81.4,93.8 195.7,93.8 195.7,86.0 81.4,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="196.3,93.8 310.6,93.8 310.6,86.0 196.3,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="311.2,93.8 425.5,93.8 425.5,86.0 311.2,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -2600,7 +2599,7 @@
 <rect x="1354" y="142" width="15" height="11" fill="#184A6C" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="152" font-size="11.5" fill="#222">R500  L=500mm  ×39  3 holes/clip → 117 screws</text>
 <rect x="1354" y="161" width="15" height="11" fill="#3F7A3F" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="171" font-size="11.5" fill="#222">R300  L=300mm  ×47  3 holes/clip → 141 screws</text>
+<text x="1375" y="171" font-size="11.5" fill="#222">R300  L=300mm  ×46  3 holes/clip → 138 screws</text>
 <rect x="1354" y="180" width="15" height="11" fill="#6C243E" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="190" font-size="11.5" fill="#222">R250  L=250mm  ×8  2 holes/clip → 16 screws</text>
 <rect x="1354" y="199" width="15" height="11" fill="#CE8375" stroke="#555" stroke-width="0.4"/>
