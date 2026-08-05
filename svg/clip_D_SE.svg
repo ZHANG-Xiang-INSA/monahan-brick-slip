@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 941" font-family="Arial,'Noto Sans SC',sans-serif">
 <rect x="0" y="0" width="1784" height="941" fill="#ffffff"/>
 <text x="30" y="30" font-size="20" font-weight="bold" fill="#111">Clip layout 卡扣排布 — Wall D — SE garden elevation</text>
-<text x="30" y="54" font-size="13" fill="#444">D墙 — 东南花园立面 · 173 clips 卡扣 · 957 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
+<text x="30" y="54" font-size="13" fill="#444">D墙 — 东南花园立面 · 163 clips 卡扣 · 881 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
 <text x="30" y="72" font-size="11" fill="#888">3 Monahan Ave (HA23007) · black-corners-flat revision · dims mm</text>
 <rect x="30.0" y="86.0" width="1300.0" height="793.7" fill="#f4f2ee" stroke="#bbb" stroke-width="0.6"/>
 <polygon points="30.0,861.9 56.8,861.9 56.8,879.7 30.0,879.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -657,9 +657,8 @@
 <polygon points="774.0,777.2 1048.6,777.2 1048.6,758.5 774.0,758.5" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1050.0,777.2 1324.5,777.2 1324.5,758.5 1050.0,758.5" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="30.0,756.6 304.6,756.6 304.6,737.9 30.0,737.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="305.9,756.6 580.5,756.6 580.5,737.9 305.9,737.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="581.8,756.6 774.0,756.6 774.0,737.9 581.8,737.9" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="774.0,756.6 1048.6,756.6 1048.6,737.9 774.0,737.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="305.9,756.6 333.4,756.6 333.4,737.9 305.9,737.9" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="1017.6,756.6 1045.0,756.6 1045.0,737.9 1017.6,737.9" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1050.0,756.6 1324.5,756.6 1324.5,737.9 1050.0,737.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="30.0,736.0 304.6,736.0 304.6,717.3 30.0,717.3" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="305.9,736.0 333.4,736.0 333.4,717.3 305.9,717.3" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -749,11 +748,7 @@
 <polygon points="305.9,303.6 333.4,303.6 333.4,284.9 305.9,284.9" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1017.6,303.6 1292.1,303.6 1292.1,284.9 1017.6,284.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1293.5,303.6 1320.9,303.6 1320.9,284.9 1293.5,284.9" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="30.0,290.5 304.6,290.5 304.6,271.9 30.0,271.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="305.9,290.5 580.5,290.5 580.5,271.9 305.9,271.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="581.8,290.5 774.0,290.5 774.0,271.9 581.8,271.9" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="774.0,290.5 1048.6,290.5 1048.6,271.9 774.0,271.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1050.0,290.5 1324.5,290.5 1324.5,271.9 1050.0,271.9" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="30.0,262.4 304.6,262.4 304.6,243.7 30.0,243.7" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="305.9,262.4 580.5,262.4 580.5,243.7 305.9,243.7" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="581.8,262.4 774.0,262.4 774.0,243.7 581.8,243.7" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -794,20 +789,15 @@
 <polygon points="581.8,118.3 774.0,118.3 774.0,99.6 581.8,99.6" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="774.0,118.3 1048.6,118.3 1048.6,99.6 774.0,99.6" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1050.0,118.3 1324.5,118.3 1324.5,99.6 1050.0,99.6" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="30.0,104.7 304.6,104.7 304.6,86.0 30.0,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="305.9,104.7 580.5,104.7 580.5,86.0 305.9,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="581.8,104.7 774.0,104.7 774.0,86.0 581.8,86.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="774.0,104.7 1048.6,104.7 1048.6,86.0 774.0,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1050.0,104.7 1324.5,104.7 1324.5,86.0 1050.0,86.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <rect x="335.3" y="297.7" width="682.3" height="453.0" fill="none" stroke="#77573A" stroke-width="1.8" stroke-dasharray="7,4"/>
 <text x="676.4" y="528.2" font-size="13" fill="#223A79" text-anchor="middle">WG10</text>
 <text x="1354" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="1354" y="104" width="15" height="11" fill="#B3402A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="114" font-size="11.5" fill="#222">R1000  L=1000mm  ×112  7 holes/clip → 784 screws</text>
+<text x="1375" y="114" font-size="11.5" fill="#222">R1000  L=1000mm  ×102  7 holes/clip → 714 screws</text>
 <rect x="1354" y="123" width="15" height="11" fill="#C99700" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="133" font-size="11.5" fill="#222">R700  L=700mm  ×17  5 holes/clip → 85 screws</text>
+<text x="1375" y="133" font-size="11.5" fill="#222">R700  L=700mm  ×15  5 holes/clip → 75 screws</text>
 <rect x="1354" y="142" width="15" height="11" fill="#CE8375" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="152" font-size="11.5" fill="#222">R100  L=100mm  ×44  2 holes/clip → 88 screws</text>
+<text x="1375" y="152" font-size="11.5" fill="#222">R100  L=100mm  ×46  2 holes/clip → 92 screws</text>
 <text x="1354" y="173" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
 <rect x="30" y="913.7" width="137.3" height="6" fill="#111"/>
 <rect x="167.3" y="913.7" width="137.3" height="6" fill="#999"/>
