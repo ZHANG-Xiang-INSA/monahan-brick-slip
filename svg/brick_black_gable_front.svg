@@ -451,39 +451,39 @@
 <polygon points="465.2,273.9 452.3,273.9 452.3,265.7 462.4,265.7 465.2,268.1" fill="#34244B" stroke="#5a5a5a" stroke-width="0.3"/>
 <text x="489" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="489" y="104" width="15" height="11" fill="#1F5F8B" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="114" font-size="11.5" fill="#222">B17  215×65  ×240</text>
+<text x="510" y="114" font-size="11.5" fill="#222">B21  215×65  ×240</text>
 <rect x="489" y="123" width="15" height="11" fill="#421810" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="133" font-size="11.5" fill="#222">B21  125×65  ×1</text>
+<text x="510" y="133" font-size="11.5" fill="#222">B25  125×65  ×1</text>
 <rect x="489" y="142" width="15" height="11" fill="#B85C00" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="152" font-size="11.5" fill="#222">B23  108×65  ×1</text>
+<text x="510" y="152" font-size="11.5" fill="#222">B27  108×65  ×1</text>
 <rect x="489" y="161" width="15" height="11" fill="#5A5F66" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="171" font-size="11.5" fill="#222">B24  102×65  ×134</text>
+<text x="510" y="171" font-size="11.5" fill="#222">B28  102×65  ×134</text>
 <rect x="489" y="180" width="15" height="11" fill="#373A3E" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="190" font-size="11.5" fill="#222">B32  211×65  ×3</text>
+<text x="510" y="190" font-size="11.5" fill="#222">B36  211×65  ×3</text>
 <rect x="489" y="199" width="15" height="11" fill="#3A5321" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="209" font-size="11.5" fill="#222">B33  184×65  ×20</text>
+<text x="510" y="209" font-size="11.5" fill="#222">B37  184×65  ×20</text>
 <rect x="489" y="218" width="15" height="11" fill="#172D17" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="228" font-size="11.5" fill="#222">B34  173×65  ×1</text>
+<text x="510" y="228" font-size="11.5" fill="#222">B38  173×65  ×1</text>
 <rect x="489" y="237" width="15" height="11" fill="#703800" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="247" font-size="11.5" fill="#222">B35  165×65  ×5</text>
+<text x="510" y="247" font-size="11.5" fill="#222">B39  165×65  ×5</text>
 <rect x="489" y="256" width="15" height="11" fill="#483523" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="266" font-size="11.5" fill="#222">B36  140×65  ×2</text>
+<text x="510" y="266" font-size="11.5" fill="#222">B40  140×65  ×2</text>
 <rect x="489" y="275" width="15" height="11" fill="#34244B" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="285" font-size="11.5" fill="#222">B37  102×65  ×2</text>
+<text x="510" y="285" font-size="11.5" fill="#222">B41  102×65  ×2</text>
 <rect x="489" y="294" width="15" height="11" fill="#2D411A" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="304" font-size="11.5" fill="#222">B38  124×65  ×3</text>
+<text x="510" y="304" font-size="11.5" fill="#222">B42  124×65  ×3</text>
 <rect x="489" y="313" width="15" height="11" fill="#0B2333" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="323" font-size="11.5" fill="#222">B39  164×65  ×1</text>
+<text x="510" y="323" font-size="11.5" fill="#222">B43  164×65  ×1</text>
 <rect x="489" y="332" width="15" height="11" fill="#5F4800" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="342" font-size="11.5" fill="#222">B40  117×65  ×2</text>
+<text x="510" y="342" font-size="11.5" fill="#222">B44  117×65  ×2</text>
 <rect x="489" y="351" width="15" height="11" fill="#4C2B3F" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="361" font-size="11.5" fill="#222">B41  105×65  ×1</text>
+<text x="510" y="361" font-size="11.5" fill="#222">B45  105×65  ×1</text>
 <rect x="489" y="370" width="15" height="11" fill="#14244A" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="380" font-size="11.5" fill="#222">B42  94×65  ×2</text>
+<text x="510" y="380" font-size="11.5" fill="#222">B46  94×65  ×2</text>
 <rect x="489" y="389" width="15" height="11" fill="#633A2D" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="399" font-size="11.5" fill="#222">B43  80×65  ×1</text>
+<text x="510" y="399" font-size="11.5" fill="#222">B47  80×65  ×1</text>
 <rect x="489" y="408" width="15" height="11" fill="#563A7B" stroke="#555" stroke-width="0.4"/>
-<text x="510" y="418" font-size="11.5" fill="#222">B44  68×57  ×26</text>
+<text x="510" y="418" font-size="11.5" fill="#222">B48  68×57  ×26</text>
 <rect x="30" y="970.0" width="63.1" height="6" fill="#111"/>
 <rect x="93.1" y="970.0" width="63.1" height="6" fill="#999"/>
 <text x="30" y="966.0" font-size="11" fill="#111">0</text>

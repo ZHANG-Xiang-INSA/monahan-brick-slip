@@ -133,7 +133,7 @@
 <polygon points="183.1,738.3 242.1,738.3 242.1,756.2 183.1,756.2" fill="#D9A08E" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="244.8,738.3 303.9,738.3 303.9,756.2 244.8,756.2" fill="#D9A08E" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="306.6,738.3 335.3,738.3 335.3,756.2 306.6,756.2" fill="#6E4B9E" stroke="#5a5a5a" stroke-width="0.3"/>
-<polygon points="338.0,750.7 365.6,750.7 365.6,756.2 338.0,756.2" fill="#291C3A" stroke="#5a5a5a" stroke-width="0.3"/>
+<polygon points="338.0,750.7 365.6,750.7 365.6,756.2 338.0,756.2" fill="#3C4B24" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="368.4,750.7 427.4,750.7 427.4,756.2 368.4,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="430.2,750.7 489.2,750.7 489.2,756.2 430.2,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="491.9,750.7 551.0,750.7 551.0,756.2 491.9,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
@@ -144,7 +144,7 @@
 <polygon points="800.8,750.7 859.8,750.7 859.8,756.2 800.8,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="862.6,750.7 921.6,750.7 921.6,756.2 862.6,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="924.4,750.7 983.4,750.7 983.4,756.2 924.4,756.2" fill="#133A55" stroke="#5a5a5a" stroke-width="0.3"/>
-<polygon points="986.1,750.7 1014.8,750.7 1014.8,756.2 986.1,756.2" fill="#291C3A" stroke="#5a5a5a" stroke-width="0.3"/>
+<polygon points="986.1,750.7 1014.8,750.7 1014.8,756.2 986.1,756.2" fill="#3C4B24" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="1017.6,738.3 1045.2,738.3 1045.2,756.2 1017.6,756.2" fill="#4E8FB0" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="1047.9,738.3 1106.9,738.3 1106.9,756.2 1047.9,756.2" fill="#D9A08E" stroke="#5a5a5a" stroke-width="0.3"/>
 <polygon points="1109.7,738.3 1168.7,738.3 1168.7,756.2 1109.7,756.2" fill="#D9A08E" stroke="#5a5a5a" stroke-width="0.3"/>
@@ -632,19 +632,19 @@
 <rect x="1354" y="104" width="15" height="11" fill="#D9A08E" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="114" font-size="11.5" fill="#222">B01  215×65  ×514</text>
 <rect x="1354" y="123" width="15" height="11" fill="#986F4A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="133" font-size="11.5" fill="#222">B04  215×41  ×30</text>
+<text x="1375" y="133" font-size="11.5" fill="#222">B07  215×41  ×30</text>
 <rect x="1354" y="142" width="15" height="11" fill="#6E4B9E" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="152" font-size="11.5" fill="#222">B07  108×65  ×31</text>
+<text x="1375" y="152" font-size="11.5" fill="#222">B10  108×65  ×31</text>
 <rect x="1354" y="161" width="15" height="11" fill="#4E8FB0" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="171" font-size="11.5" fill="#222">B08  98×65  ×31</text>
+<text x="1375" y="171" font-size="11.5" fill="#222">B11  98×65  ×31</text>
 <rect x="1354" y="180" width="15" height="11" fill="#4A3800" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="190" font-size="11.5" fill="#222">B10  100×43  ×3</text>
+<text x="1375" y="190" font-size="11.5" fill="#222">B14  101×43  ×3</text>
 <rect x="1354" y="199" width="15" height="11" fill="#0D4A47" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="209" font-size="11.5" fill="#222">B11  108×41  ×1</text>
+<text x="1375" y="209" font-size="11.5" fill="#222">B15  108×41  ×1</text>
 <rect x="1354" y="218" width="15" height="11" fill="#133A55" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="228" font-size="11.5" fill="#222">B12  215×20  ×10</text>
-<rect x="1354" y="237" width="15" height="11" fill="#291C3A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="247" font-size="11.5" fill="#222">B14  102×20  ×2</text>
+<text x="1375" y="228" font-size="11.5" fill="#222">B16  215×20  ×10</text>
+<rect x="1354" y="237" width="15" height="11" fill="#3C4B24" stroke="#555" stroke-width="0.4"/>
+<text x="1375" y="247" font-size="11.5" fill="#222">B19  102×20  ×2</text>
 <rect x="1354" y="256" width="15" height="11" fill="none" stroke="#8A2E4F" stroke-width="1.6"/>
 <text x="1375" y="266" font-size="11.5" fill="#222">corner lap/half piece 转角压边/半砖</text>
 <rect x="30" y="913.7" width="137.3" height="6" fill="#111"/>
