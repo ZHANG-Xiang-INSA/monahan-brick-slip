@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 480" font-family="Arial,'Noto Sans SC',sans-serif">
 <rect x="0" y="0" width="1784" height="480" fill="#ffffff"/>
 <text x="30" y="30" font-size="20" font-weight="bold" fill="#111">Clip layout 卡扣排布 — Wall B — SW side elevation</text>
-<text x="30" y="54" font-size="13" fill="#444">B墙 — 西南侧立面 · 725 clips 卡扣 · 3061 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
+<text x="30" y="54" font-size="13" fill="#444">B墙 — 西南侧立面 · 713 clips 卡扣 · 3066 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
 <text x="30" y="72" font-size="11" fill="#888">3 Monahan Ave (HA23007) · black-corners-flat revision · dims mm</text>
 <rect x="30.0" y="86.0" width="1300.0" height="332.7" fill="#f4f2ee" stroke="#bbb" stroke-width="0.6"/>
 <polygon points="55.7,411.3 69.8,411.3 69.8,418.7 55.7,418.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -2426,31 +2426,19 @@
 <polygon points="1304.5,170.3 1315.9,170.3 1315.9,162.5 1304.5,162.5" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1316.5,170.3 1327.9,170.3 1327.9,162.5 1316.5,162.5" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="32.3,161.7 66.6,161.7 66.6,154.0 32.3,154.0" fill="#3F7A3F" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="81.4,161.7 161.5,161.7 161.5,154.0 81.4,154.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="162.6,161.7 168.3,161.7 168.3,154.0 162.6,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="169.5,161.7 171.7,161.7 171.7,154.0 169.5,154.0" fill="#8c8c8c" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="379.5,161.7 413.8,161.7 413.8,154.0 379.5,154.0" fill="#3F7A3F" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="415.0,161.7 420.7,161.7 420.7,154.0 415.0,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="421.8,161.7 424.1,161.7 424.1,154.0 421.8,154.0" fill="#8c8c8c" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="426.1,161.7 506.1,161.7 506.1,154.0 426.1,154.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="507.2,161.7 518.7,161.7 518.7,154.0 507.2,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="519.8,161.7 531.2,161.7 531.2,154.0 519.8,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="611.0,161.7 645.3,161.7 645.3,154.0 611.0,154.0" fill="#3F7A3F" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="646.5,161.7 652.2,161.7 652.2,154.0 646.5,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="81.4,161.7 195.7,161.7 195.7,154.0 81.4,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="196.3,161.7 310.6,161.7 310.6,154.0 196.3,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="311.2,161.7 425.5,161.7 425.5,154.0 311.2,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="426.1,161.7 540.4,161.7 540.4,154.0 426.1,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="540.9,161.7 655.3,161.7 655.3,154.0 540.9,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="655.8,161.7 735.8,161.7 735.8,154.0 655.8,154.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="736.4,161.7 747.8,161.7 747.8,154.0 736.4,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="748.4,161.7 754.1,161.7 754.1,154.0 748.4,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="768.7,161.7 825.9,161.7 825.9,154.0 768.7,154.0" fill="#184A6C" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="827.0,161.7 838.5,161.7 838.5,154.0 827.0,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="906.7,161.7 986.7,161.7 986.7,154.0 906.7,154.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="987.9,161.7 993.6,161.7 993.6,154.0 987.9,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="994.7,161.7 997.0,161.7 997.0,154.0 994.7,154.0" fill="#8c8c8c" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="768.7,161.7 883.0,161.7 883.0,154.0 768.7,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="883.6,161.7 997.9,161.7 997.9,154.0 883.6,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="998.5,161.7 1004.2,161.7 1004.2,154.0 998.5,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1020.7,161.7 1100.8,161.7 1100.8,154.0 1020.7,154.0" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1101.9,161.7 1113.3,161.7 1113.3,154.0 1101.9,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1114.5,161.7 1120.2,161.7 1120.2,154.0 1114.5,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1121.3,161.7 1123.6,161.7 1123.6,154.0 1121.3,154.0" fill="#8c8c8c" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
-<polygon points="1189.6,161.7 1246.8,161.7 1246.8,154.0 1189.6,154.0" fill="#184A6C" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="1020.7,161.7 1135.1,161.7 1135.1,154.0 1020.7,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
+<polygon points="1135.6,161.7 1249.9,161.7 1249.9,154.0 1135.6,154.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1250.5,161.7 1307.7,161.7 1307.7,154.0 1250.5,154.0" fill="#184A6C" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1308.2,161.7 1319.7,161.7 1319.7,154.0 1308.2,154.0" fill="#CE8375" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="1320.2,161.7 1325.9,161.7 1325.9,154.0 1320.2,154.0" fill="#2B4B9B" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -2606,22 +2594,20 @@
 <text x="1015.2" y="256.4" font-size="13" fill="#223A79" text-anchor="middle">DOOR 门洞</text>
 <text x="1354" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="1354" y="104" width="15" height="11" fill="#B3402A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="114" font-size="11.5" fill="#222">R1000  L=1000mm  ×252  7 holes/clip → 1764 screws</text>
+<text x="1375" y="114" font-size="11.5" fill="#222">R1000  L=1000mm  ×261  7 holes/clip → 1827 screws</text>
 <rect x="1354" y="123" width="15" height="11" fill="#C99700" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="133" font-size="11.5" fill="#222">R700  L=700mm  ×87  5 holes/clip → 435 screws</text>
+<text x="1375" y="133" font-size="11.5" fill="#222">R700  L=700mm  ×83  5 holes/clip → 415 screws</text>
 <rect x="1354" y="142" width="15" height="11" fill="#184A6C" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="152" font-size="11.5" fill="#222">R500  L=500mm  ×41  3 holes/clip → 123 screws</text>
+<text x="1375" y="152" font-size="11.5" fill="#222">R500  L=500mm  ×39  3 holes/clip → 117 screws</text>
 <rect x="1354" y="161" width="15" height="11" fill="#3F7A3F" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="171" font-size="11.5" fill="#222">R300  L=300mm  ×49  3 holes/clip → 147 screws</text>
+<text x="1375" y="171" font-size="11.5" fill="#222">R300  L=300mm  ×47  3 holes/clip → 141 screws</text>
 <rect x="1354" y="180" width="15" height="11" fill="#6C243E" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="190" font-size="11.5" fill="#222">R250  L=250mm  ×8  2 holes/clip → 16 screws</text>
 <rect x="1354" y="199" width="15" height="11" fill="#CE8375" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="209" font-size="11.5" fill="#222">R100  L=100mm  ×162  2 holes/clip → 324 screws</text>
+<text x="1375" y="209" font-size="11.5" fill="#222">R100  L=100mm  ×158  2 holes/clip → 316 screws</text>
 <rect x="1354" y="218" width="15" height="11" fill="#2B4B9B" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="228" font-size="11.5" fill="#222">R50  L=50mm  ×122  2 holes/clip → 244 screws</text>
-<rect x="1354" y="237" width="15" height="11" fill="#8c8c8c" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="247" font-size="11.5" fill="#222">R20  L=20mm  ×4  2 holes/clip → 8 screws</text>
-<text x="1354" y="268" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
+<text x="1375" y="228" font-size="11.5" fill="#222">R50  L=50mm  ×117  2 holes/clip → 234 screws</text>
+<text x="1354" y="249" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
 <rect x="30" y="452.7" width="57.2" height="6" fill="#111"/>
 <rect x="87.2" y="452.7" width="57.2" height="6" fill="#999"/>
 <text x="30" y="448.7" font-size="11" fill="#111">0</text>
