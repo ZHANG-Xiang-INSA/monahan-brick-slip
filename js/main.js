@@ -50,8 +50,8 @@
     black_side_inner_L: [610, 998], black_side_inner_R: [610, 998]
   };
   FACES.forEach(function (f) {
-    f.brickSvg = "svg/brick_" + f.id + ".svg?b=42";
-    f.clipSvg = "svg/clip_" + f.id + ".svg?b=42";
+    f.brickSvg = "svg/brick_" + f.id + ".svg?b=43";
+    f.clipSvg = "svg/clip_" + f.id + ".svg?b=43";
     f.size = SVG_SIZE[f.id];
   });
   function faceByCode(code) {
@@ -94,8 +94,8 @@
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_brick"), src: f.brickSvg, key: f.code + "|bricks", w: f.size[0], h: f.size[1] });
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_clip"), src: f.clipSvg, key: f.code + "|clips", w: f.size[0], h: f.size[1] });
     });
-    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: subWithCount("cut_bricks_sub", N_BRICK_TYPES), src: "svg/cut_brick_types.svg?b=42", key: "cut1", w: 2224, h: 1531 });
-    out.push({ code: "CUT-02", name: T("cut_clips"), sub: subWithCount("cut_clips_sub", N_CLIP_TYPES), src: "svg/cut_clip_types.svg?b=42", key: "cut2", w: 2000, h: 2218 });
+    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: subWithCount("cut_bricks_sub", N_BRICK_TYPES), src: "svg/cut_brick_types.svg?b=43", key: "cut1", w: 2224, h: 1531 });
+    out.push({ code: "CUT-02", name: T("cut_clips"), sub: subWithCount("cut_clips_sub", N_CLIP_TYPES), src: "svg/cut_clip_types.svg?b=43", key: "cut2", w: 2000, h: 2218 });
     return out;
   }
   function openViewerAt(key) {

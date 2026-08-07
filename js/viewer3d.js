@@ -280,12 +280,19 @@
     }
     for (i = 0; i < DATA.clips.length; i++) {
       e = DATA.clips[i];
-      n = v3(faces[e.f].n);
+      n = norm(v3(faces[e.f].n));
       var jc = jitter(i + 90001) * 0.5;
       var rgbc = [srgb2lin(BASE_RGB.clip[0] + jc), srgb2lin(BASE_RGB.clip[1] + jc), srgb2lin(BASE_RGB.clip[2] + jc)];
-      // clips extrude along -n; nudge off the wall plane to avoid z-fighting,
-      // and give the 0.25 mm steel a 2 mm visual body so it reads on screen
-      emitPrism(bucket(e.f, "clip"), e.pts, n, -0.0006, -0.0026, rgbc);
+      // The 0.25 mm steel gets a 2 mm visual body so it reads on screen, placed INSIDE the
+      // slip's own 22 mm depth rather than behind it. The rail really does sit behind the
+      // slip, but the backing board it screws to is not modelled, so a rail extruded to the
+      // substrate side is the nearest surface from that side and wins the depth test over
+      // the slip in front of it. The two canopy slopes are the only faces whose normal has
+      // a z component, and it points DOWN, so their substrate side faces the sky: at the
+      // default hero camera 57.8% of both roof slopes rendered as steel instead of black
+      // brick, and 23.6% of the red walls with it. Buried at 4-6 mm the rail is still read
+      // through the 10 mm joints, which is where a fitter would actually see it.
+      emitPrism(bucket(e.f, "clip"), e.pts, n, 0.0040, 0.0060, rgbc);
       counts.clips++;
     }
     return { buckets: buckets, counts: counts, bbox: bb, corners: cornerStats };
