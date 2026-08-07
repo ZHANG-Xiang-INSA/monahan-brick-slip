@@ -50,8 +50,8 @@
     black_side_inner_L: [610, 998], black_side_inner_R: [610, 998]
   };
   FACES.forEach(function (f) {
-    f.brickSvg = "svg/brick_" + f.id + ".svg?b=41";
-    f.clipSvg = "svg/clip_" + f.id + ".svg?b=41";
+    f.brickSvg = "svg/brick_" + f.id + ".svg?b=42";
+    f.clipSvg = "svg/clip_" + f.id + ".svg?b=42";
     f.size = SVG_SIZE[f.id];
   });
   function faceByCode(code) {
@@ -71,6 +71,12 @@
 
   var fmt = function (n) { return Number(n).toLocaleString("en-US"); };
 
+  // Type counts are read from the data, never typed into the page. The clip cutting
+  // sheet went three weeks stale behind a hardcoded quantity table once already.
+  var N_BRICK_TYPES = (window.DATA_summary && window.DATA_summary.brick_types || []).length;
+  var N_CLIP_TYPES = Object.keys(clipTypeInfo).length;
+  function subWithCount(key, n) { return T(key).replace("%d", n); }
+
   // ---------- state ----------
   var cur = FACES[0];          // current face (RED-01 default)
   var curLayer = "bricks";     // 'bricks' | 'clips'
@@ -88,8 +94,8 @@
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_brick"), src: f.brickSvg, key: f.code + "|bricks", w: f.size[0], h: f.size[1] });
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_clip"), src: f.clipSvg, key: f.code + "|clips", w: f.size[0], h: f.size[1] });
     });
-    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: T("cut_bricks_sub"), src: "svg/cut_brick_types.svg?b=41", key: "cut1", w: 2224, h: 1531 });
-    out.push({ code: "CUT-02", name: T("cut_clips"), sub: T("cut_clips_sub"), src: "svg/cut_clip_types.svg?b=41", key: "cut2", w: 2000, h: 2218 });
+    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: subWithCount("cut_bricks_sub", N_BRICK_TYPES), src: "svg/cut_brick_types.svg?b=42", key: "cut1", w: 2224, h: 1531 });
+    out.push({ code: "CUT-02", name: T("cut_clips"), sub: subWithCount("cut_clips_sub", N_CLIP_TYPES), src: "svg/cut_clip_types.svg?b=42", key: "cut2", w: 2000, h: 2218 });
     return out;
   }
   function openViewerAt(key) {
@@ -382,6 +388,11 @@
   // ---------- boot ----------
   document.addEventListener("DOMContentLoaded", function () {
     dviewer = window.DrawingViewer();
+
+    var ctb = document.getElementById("ct-brick-types");
+    if (ctb) ctb.textContent = N_BRICK_TYPES;
+    var ctc = document.getElementById("ct-clip-types");
+    if (ctc) ctc.textContent = N_CLIP_TYPES;
 
     var fmStage = document.getElementById("fm-drawing");
     stagePZ = StagePZ(fmStage, document.getElementById("fm-plane"),
