@@ -2246,23 +2246,24 @@
 <text x="771.1" y="251.1" font-size="13" fill="#223A79" text-anchor="middle">WG12</text>
 <text x="1354" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="1354" y="104" width="15" height="11" fill="#D9A08E" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="114" font-size="11.5" fill="#222">B01  215×65  ×2089</text>
+<text x="1375" y="114" font-size="11.5" fill="#222">B01  212–215×65  ×2089</text>
 <rect x="1354" y="123" width="15" height="11" fill="#D07A5E" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="133" font-size="11.5" fill="#222">B02  212×63  ×14</text>
+<text x="1375" y="133" font-size="11.5" fill="#222">B02  210.5–215×61–65  ×14</text>
 <rect x="1354" y="142" width="15" height="11" fill="#986F4A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="152" font-size="11.5" fill="#222">B05  215×41  ×60</text>
+<text x="1375" y="152" font-size="11.5" fill="#222">B05  215×41–45  ×60</text>
 <rect x="1354" y="161" width="15" height="11" fill="#8C3221" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="171" font-size="11.5" fill="#222">B06  123×65  ×17</text>
+<text x="1375" y="171" font-size="11.5" fill="#222">B06  123×61–65  ×17</text>
 <rect x="1354" y="180" width="15" height="11" fill="#6E4B9E" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="190" font-size="11.5" fill="#222">B07  108×65  ×38</text>
+<text x="1375" y="190" font-size="11.5" fill="#222">B07  104.5–107.5×65  ×38</text>
 <rect x="1354" y="199" width="15" height="11" fill="#4E8FB0" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="209" font-size="11.5" fill="#222">B08  98×65  ×14</text>
+<text x="1375" y="209" font-size="11.5" fill="#222">B08  97.5–100.5×65  ×14</text>
 <rect x="1354" y="218" width="15" height="11" fill="#6D271A" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="228" font-size="11.5" fill="#222">B09  85×65  ×3</text>
+<text x="1375" y="228" font-size="11.5" fill="#222">B09  82–86.8×65  ×3</text>
 <rect x="1354" y="237" width="15" height="11" fill="#0D4A47" stroke="#555" stroke-width="0.4"/>
-<text x="1375" y="247" font-size="11.5" fill="#222">B11  108×41  ×1</text>
+<text x="1375" y="247" font-size="11.5" fill="#222">B11  107.5×41  ×1</text>
 <rect x="1354" y="256" width="15" height="11" fill="none" stroke="#8A2E4F" stroke-width="1.6"/>
 <text x="1375" y="266" font-size="11.5" fill="#222">corner lap/half piece 转角压边/半砖</text>
+<text x="1354" y="287" font-size="9" fill="#777">型号按 ±5 mm 归并,尺寸为实际区间 · Type IDs grouped to ±5 mm; sizes are the true range</text>
 <rect x="30" y="395.5" width="47.6" height="6" fill="#111"/>
 <rect x="77.6" y="395.5" width="47.6" height="6" fill="#999"/>
 <text x="30" y="391.5" font-size="11" fill="#111">0</text>

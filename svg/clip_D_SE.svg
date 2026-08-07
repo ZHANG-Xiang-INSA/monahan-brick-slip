@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 941" font-family="Arial,'Noto Sans SC',sans-serif">
 <rect x="0" y="0" width="1784" height="941" fill="#ffffff"/>
+<defs><pattern id="adhesive" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#F3E7F8"/><line x1="0" y1="0" x2="0" y2="4" stroke="#7A3E9D" stroke-width="1.2"/></pattern></defs>
 <text x="30" y="30" font-size="20" font-weight="bold" fill="#111">Clip layout 卡扣排布 — Wall D — SE garden elevation</text>
 <text x="30" y="54" font-size="13" fill="#444">D墙 — 东南花园立面 · 167 clips 卡扣 · 909 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
 <text x="30" y="72" font-size="11" fill="#888">3 Monahan Ave (HA23007) · black-corners-flat revision · dims mm</text>
@@ -133,18 +134,18 @@
 <polygon points="183.1,738.3 242.1,738.3 242.1,756.2 183.1,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="244.8,738.3 303.9,738.3 303.9,756.2 244.8,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="306.6,738.3 335.3,738.3 335.3,756.2 306.6,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="338.0,750.7 365.6,750.7 365.6,756.2 338.0,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="368.4,750.7 427.4,750.7 427.4,756.2 368.4,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="430.2,750.7 489.2,750.7 489.2,756.2 430.2,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="491.9,750.7 551.0,750.7 551.0,756.2 491.9,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="553.7,750.7 612.7,750.7 612.7,756.2 553.7,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="615.5,750.7 674.5,750.7 674.5,756.2 615.5,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="677.3,750.7 736.3,750.7 736.3,756.2 677.3,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="739.0,750.7 798.1,750.7 798.1,756.2 739.0,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="800.8,750.7 859.8,750.7 859.8,756.2 800.8,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="862.6,750.7 921.6,750.7 921.6,756.2 862.6,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="924.4,750.7 983.4,750.7 983.4,756.2 924.4,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="986.1,750.7 1014.8,750.7 1014.8,756.2 986.1,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="338.0,750.7 365.6,750.7 365.6,756.2 338.0,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="368.4,750.7 427.4,750.7 427.4,756.2 368.4,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="430.2,750.7 489.2,750.7 489.2,756.2 430.2,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="491.9,750.7 551.0,750.7 551.0,756.2 491.9,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="553.7,750.7 612.7,750.7 612.7,756.2 553.7,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="615.5,750.7 674.5,750.7 674.5,756.2 615.5,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="677.3,750.7 736.3,750.7 736.3,756.2 677.3,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="739.0,750.7 798.1,750.7 798.1,756.2 739.0,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="800.8,750.7 859.8,750.7 859.8,756.2 800.8,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="862.6,750.7 921.6,750.7 921.6,756.2 862.6,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="924.4,750.7 983.4,750.7 983.4,756.2 924.4,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="986.1,750.7 1014.8,750.7 1014.8,756.2 986.1,756.2" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="1017.6,738.3 1045.2,738.3 1045.2,756.2 1017.6,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1047.9,738.3 1106.9,738.3 1106.9,756.2 1047.9,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1109.7,738.3 1168.7,738.3 1168.7,756.2 1109.7,756.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -365,18 +366,18 @@
 <polygon points="183.1,285.3 242.1,285.3 242.1,303.2 183.1,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="244.8,285.3 303.9,285.3 303.9,303.2 244.8,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="306.6,285.3 335.3,285.3 335.3,303.2 306.6,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="338.0,285.3 365.6,285.3 365.6,297.7 338.0,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="368.4,285.3 427.4,285.3 427.4,297.7 368.4,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="430.2,285.3 489.2,285.3 489.2,297.7 430.2,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="491.9,285.3 551.0,285.3 551.0,297.7 491.9,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="553.7,285.3 612.7,285.3 612.7,297.7 553.7,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="615.5,285.3 674.5,285.3 674.5,297.7 615.5,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="677.3,285.3 736.3,285.3 736.3,297.7 677.3,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="739.0,285.3 798.1,285.3 798.1,297.7 739.0,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="800.8,285.3 859.8,285.3 859.8,297.7 800.8,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="862.6,285.3 921.6,285.3 921.6,297.7 862.6,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="924.4,285.3 983.4,285.3 983.4,297.7 924.4,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="986.1,285.3 1014.8,285.3 1014.8,297.7 986.1,297.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="338.0,285.3 365.6,285.3 365.6,297.7 338.0,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="368.4,285.3 427.4,285.3 427.4,297.7 368.4,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="430.2,285.3 489.2,285.3 489.2,297.7 430.2,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="491.9,285.3 551.0,285.3 551.0,297.7 491.9,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="553.7,285.3 612.7,285.3 612.7,297.7 553.7,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="615.5,285.3 674.5,285.3 674.5,297.7 615.5,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="677.3,285.3 736.3,285.3 736.3,297.7 677.3,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="739.0,285.3 798.1,285.3 798.1,297.7 739.0,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="800.8,285.3 859.8,285.3 859.8,297.7 800.8,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="862.6,285.3 921.6,285.3 921.6,297.7 862.6,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="924.4,285.3 983.4,285.3 983.4,297.7 924.4,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="986.1,285.3 1014.8,285.3 1014.8,297.7 986.1,297.7" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="1017.6,285.3 1045.2,285.3 1045.2,303.2 1017.6,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1047.9,285.3 1106.9,285.3 1106.9,303.2 1047.9,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1109.7,285.3 1168.7,285.3 1168.7,303.2 1109.7,303.2" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -566,27 +567,27 @@
 <polygon points="1085.6,100.0 1144.7,100.0 1144.7,117.8 1085.6,117.8" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1147.4,100.0 1206.5,100.0 1206.5,117.8 1147.4,117.8" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1209.2,100.0 1268.2,100.0 1268.2,117.8 1209.2,117.8" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="30.0,86.0 56.8,86.0 56.8,97.3 30.0,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="59.5,86.0 118.5,86.0 118.5,97.3 59.5,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="121.3,86.0 180.3,86.0 180.3,97.3 121.3,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="183.1,86.0 242.1,86.0 242.1,97.3 183.1,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="244.8,86.0 303.9,86.0 303.9,97.3 244.8,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="306.6,86.0 365.6,86.0 365.6,97.3 306.6,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="368.4,86.0 427.4,86.0 427.4,97.3 368.4,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="430.2,86.0 489.2,86.0 489.2,97.3 430.2,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="491.9,86.0 551.0,86.0 551.0,97.3 491.9,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="553.7,86.0 612.7,86.0 612.7,97.3 553.7,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="615.5,86.0 674.5,86.0 674.5,97.3 615.5,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="677.3,86.0 736.3,86.0 736.3,97.3 677.3,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="739.0,86.0 798.1,86.0 798.1,97.3 739.0,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="800.8,86.0 859.8,86.0 859.8,97.3 800.8,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="862.6,86.0 921.6,86.0 921.6,97.3 862.6,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="924.4,86.0 983.4,86.0 983.4,97.3 924.4,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="986.1,86.0 1045.2,86.0 1045.2,97.3 986.1,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="1047.9,86.0 1106.9,86.0 1106.9,97.3 1047.9,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="1109.7,86.0 1168.7,86.0 1168.7,97.3 1109.7,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="1171.4,86.0 1230.5,86.0 1230.5,97.3 1171.4,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="1233.2,86.0 1292.2,86.0 1292.2,97.3 1233.2,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="30.0,86.0 56.8,86.0 56.8,97.3 30.0,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="59.5,86.0 118.5,86.0 118.5,97.3 59.5,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="121.3,86.0 180.3,86.0 180.3,97.3 121.3,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="183.1,86.0 242.1,86.0 242.1,97.3 183.1,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="244.8,86.0 303.9,86.0 303.9,97.3 244.8,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="306.6,86.0 365.6,86.0 365.6,97.3 306.6,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="368.4,86.0 427.4,86.0 427.4,97.3 368.4,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="430.2,86.0 489.2,86.0 489.2,97.3 430.2,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="491.9,86.0 551.0,86.0 551.0,97.3 491.9,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="553.7,86.0 612.7,86.0 612.7,97.3 553.7,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="615.5,86.0 674.5,86.0 674.5,97.3 615.5,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="677.3,86.0 736.3,86.0 736.3,97.3 677.3,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="739.0,86.0 798.1,86.0 798.1,97.3 739.0,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="800.8,86.0 859.8,86.0 859.8,97.3 800.8,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="862.6,86.0 921.6,86.0 921.6,97.3 862.6,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="924.4,86.0 983.4,86.0 983.4,97.3 924.4,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="986.1,86.0 1045.2,86.0 1045.2,97.3 986.1,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="1047.9,86.0 1106.9,86.0 1106.9,97.3 1047.9,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="1109.7,86.0 1168.7,86.0 1168.7,97.3 1109.7,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="1171.4,86.0 1230.5,86.0 1230.5,97.3 1171.4,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="1233.2,86.0 1292.2,86.0 1292.2,97.3 1233.2,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="1295.0,861.9 1324.5,861.9 1324.5,879.7 1295.0,879.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1271.0,841.3 1330.0,841.3 1330.0,859.1 1271.0,859.1" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1295.0,820.7 1324.5,820.7 1324.5,838.5 1295.0,838.5" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -625,7 +626,7 @@
 <polygon points="1271.0,141.2 1330.0,141.2 1330.0,159.0 1271.0,159.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1295.0,120.6 1324.5,120.6 1324.5,138.4 1295.0,138.4" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1271.0,100.0 1330.0,100.0 1330.0,117.8 1271.0,117.8" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="1295.0,86.0 1324.5,86.0 1324.5,97.3 1295.0,97.3" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="1295.0,86.0 1324.5,86.0 1324.5,97.3 1295.0,97.3" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="30.0,879.7 304.6,879.7 304.6,861.1 30.0,861.1" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="305.9,879.7 580.5,879.7 580.5,861.1 305.9,861.1" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="581.8,879.7 774.0,879.7 774.0,861.1 581.8,861.1" fill="#C99700" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -802,7 +803,9 @@
 <text x="1375" y="133" font-size="11.5" fill="#222">R700  L=700mm  ×15  5 holes/clip → 75 screws</text>
 <rect x="1354" y="142" width="15" height="11" fill="#CE8375" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="152" font-size="11.5" fill="#222">R100  L=100mm  ×46  2 holes/clip → 92 screws</text>
-<text x="1354" y="173" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
+<rect x="1354" y="161" width="15" height="11" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.9"/>
+<text x="1375" y="171" font-size="11.5" fill="#222">胶粘固定 adhesive-fixed  ×46  (no rail possible 无法安装卡扣)</text>
+<text x="1354" y="192" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
 <rect x="30" y="913.7" width="137.3" height="6" fill="#111"/>
 <rect x="167.3" y="913.7" width="137.3" height="6" fill="#999"/>
 <text x="30" y="909.7" font-size="11" fill="#111">0</text>

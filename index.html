@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>3 Monahan Avenue · HA23007 — Brick Slip Setting-Out &amp; Quantity Schedule</title>
 <meta name="description" content="3 Monahan Avenue, Purley (HA23007) — brick slip setting-out and quantity schedule.">
-<link rel="stylesheet" href="css/site.css?b=38">
+<link rel="stylesheet" href="css/site.css?b=41">
 </head>
 <body>
 
@@ -78,7 +78,7 @@
             </div>
             <div class="v-fail" id="v-fail">
               <div class="v-fail-plate">
-                <img src="svg/brick_C_NW.svg" alt="NW front elevation — static preview" width="1784" height="473">
+                <img src="svg/brick_C_NW.svg?b=41" alt="NW front elevation — static preview" width="1784" height="473">
                 <div class="v-fail-cap mono"><span data-i18n="v_static_cap">RED-03 · 西北正立面（入口）· 静态预览</span><span>1 : 100</span></div>
               </div>
               <p class="v-fail-msg" data-i18n="v_fail">三维视图不可用（WebGL 或网络受限），已显示静态预览。</p>
@@ -93,38 +93,28 @@
   <section class="sumband" id="summary">
     <div class="wrap hero-index">
       <div class="sb-toggle">
-        <p class="sb-cap mono" data-i18n="hi_basis">用量口径 · BASIS</p>
-        <div class="basis" id="hi-seg" role="group" aria-label="Surplus basis — click to switch">
-          <button type="button" class="active" data-mult="1">
-            <span class="bs-check" aria-hidden="true"></span>
-            <span class="bs-txt"><b data-i18n="hi_exact">刚好</b><i data-i18n="hi_exact_sub">EXACT</i></span>
-          </button>
-          <button type="button" data-mult="1.15">
-            <span class="bs-check" aria-hidden="true"></span>
-            <span class="bs-txt"><b data-i18n="hi_surplus">+15%</b><i data-i18n="hi_surplus_sub">含富余</i></span>
-          </button>
-        </div>
-        <p class="sb-hint" data-i18n="hi_hint">点击切换 · 数量实时更新</p>
+        <p class="sb-cap mono" data-i18n="hi_basis">工程量 · TAKE-OFF</p>
+        <p class="sb-note" data-i18n="hi_note">设计数量,与下方各表逐项一致。采购富余在「材料用量」一节按 +15% 计。</p>
       </div>
       <div class="sb-grid">
         <a class="sb-item" href="#elevations">
-          <span class="sb-v serif"><span class="hi-q" data-base="7544">7,544</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-v serif">7,544<i data-i18n="u_pcs">片</i></span>
           <span class="sb-l" data-i18n="s_total">总砖片</span>
         </a>
         <a class="sb-item" href="#face/RED-01">
-          <span class="sb-v serif"><span class="hi-q" data-base="5811">5,811</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-v serif">5,811<i data-i18n="u_pcs">片</i></span>
           <span class="sb-l"><span class="sw" style="--sw:#A54132"></span><span data-i18n="s_red">红砖</span></span>
         </a>
         <a class="sb-item" href="#face/BLACK-01">
-          <span class="sb-v serif"><span class="hi-q" data-base="1733">1,733</span><i data-i18n="u_pcs">片</i></span>
+          <span class="sb-v serif">1,733<i data-i18n="u_pcs">片</i></span>
           <span class="sb-l"><span class="sw" style="--sw:#242424"></span><span data-i18n="s_black">黑砖</span></span>
         </a>
         <a class="sb-item" href="#cutting">
-          <span class="sb-v serif"><span class="hi-q" data-base="2177">2,177</span><i data-i18n="u_ea">件</i></span>
+          <span class="sb-v serif">2,177<i data-i18n="u_ea">件</i></span>
           <span class="sb-l"><span class="sw" style="--sw:#68737D"></span><span data-i18n="s_clips">卡扣</span></span>
         </a>
         <a class="sb-item" href="#cutting">
-          <span class="sb-v serif"><span class="hi-q" data-base="11398">11,398</span><i data-i18n="u_ea">件</i></span>
+          <span class="sb-v serif">11,398<i data-i18n="u_ea">件</i></span>
           <span class="sb-l" data-i18n="s_screws">螺钉</span>
         </a>
         <a class="sb-item" href="#elevations">
@@ -201,7 +191,7 @@
           </div>
 
           <div class="fm-stage" id="fm-drawing">
-            <div class="fm-plane" id="fm-plane"><img id="fm-img" src="svg/brick_A_NE.svg" alt="RED-01"></div>
+            <div class="fm-plane" id="fm-plane"><img id="fm-img" src="svg/brick_A_NE.svg?b=41" alt="RED-01"></div>
             <span class="fd-hint mono" data-i18n="fd_hint">滚轮缩放 · 拖拽平移 · 双击放大</span>
           </div>
         </div>
@@ -239,7 +229,7 @@
       <div class="cut-grid">
         <article class="panel cut-card">
           <div class="cut-fig" id="cut-fig-1">
-            <img src="svg/cut_brick_types.svg" alt="Brick cutting types sheet" loading="lazy" width="2134" height="1736">
+            <img src="svg/cut_brick_types.svg?b=41" alt="Brick cutting types sheet" loading="lazy" width="2224" height="1531">
           </div>
           <div class="cut-body">
             <p class="cut-code mono">CUT-01</p>
@@ -251,13 +241,13 @@
             </dl>
             <div class="cut-actions">
               <button type="button" class="btn btn-primary" id="cut-open-1" data-i18n="btn_open_dwg">打开图纸</button>
-              <a class="btn btn-secondary" href="svg/cut_brick_types.svg" download data-i18n="btn_download">下载 SVG</a>
+              <a class="btn btn-secondary" href="svg/cut_brick_types.svg?b=41" download data-i18n="btn_download">下载 SVG</a>
             </div>
           </div>
         </article>
         <article class="panel cut-card">
           <div class="cut-fig" id="cut-fig-2">
-            <img src="svg/cut_clip_types.svg?b=38" alt="Clip cutting types sheet" loading="lazy" width="2000" height="2218">
+            <img src="svg/cut_clip_types.svg?b=41" alt="Clip cutting types sheet" loading="lazy" width="2000" height="2218">
           </div>
           <div class="cut-body">
             <p class="cut-code mono">CUT-02</p>
@@ -269,7 +259,7 @@
             </dl>
             <div class="cut-actions">
               <button type="button" class="btn btn-primary" id="cut-open-2" data-i18n="btn_open_dwg">打开图纸</button>
-              <a class="btn btn-secondary" href="svg/cut_clip_types.svg?b=38" download data-i18n="btn_download">下载 SVG</a>
+              <a class="btn btn-secondary" href="svg/cut_clip_types.svg?b=41" download data-i18n="btn_download">下载 SVG</a>
             </div>
           </div>
         </article>
@@ -348,15 +338,15 @@
 </div>
 
 <!-- data (script-src, works on file://) -->
-<script src="data/summary.js?b=38"></script>
-<script src="data/faces.js?b=38"></script>
-<script src="data/model3d_v2.js?b=38"></script>
-<script src="data/materials.js?b=38"></script>
+<script src="data/summary.js?b=41"></script>
+<script src="data/faces.js?b=41"></script>
+<script src="data/model3d_v2.js?b=41"></script>
+<script src="data/materials.js?b=41"></script>
 <!-- three.js r128 classic build; on failure the viewer falls back to the static preview -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="js/i18n.js?b=38"></script>
-<script src="js/drawing.js?b=38"></script>
-<script src="js/viewer3d.js?b=38"></script>
-<script src="js/main.js?b=38"></script>
+<script src="js/i18n.js?b=41"></script>
+<script src="js/drawing.js?b=41"></script>
+<script src="js/viewer3d.js?b=41"></script>
+<script src="js/main.js?b=41"></script>
 </body>
 </html>

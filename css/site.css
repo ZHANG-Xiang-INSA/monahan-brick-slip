@@ -273,6 +273,7 @@ section{scroll-margin-top:calc(var(--nav-h) + 26px)}
   border-right:1px solid var(--hair);
 }
 .sb-cap{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.sb-note{font-size:10.5px;font-weight:600;line-height:1.65;color:var(--ink-2);max-width:23ch}
 .sb-grid{flex:1;display:grid;grid-template-columns:repeat(6,1fr)}
 .sb-item{
   display:flex;flex-direction:column;justify-content:center;gap:3px;
@@ -287,36 +288,6 @@ section{scroll-margin-top:calc(var(--nav-h) + 26px)}
 .sb-l{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--ink-2)}
 .sb-l .sw{width:9px;height:9px;border-radius:3px;background:var(--sw);flex:0 0 auto;
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.16)}
-
-/* basis switch — iOS cards */
-.basis{display:flex;gap:8px}
-.basis button{
-  display:flex;align-items:center;gap:9px;
-  background:rgba(255,255,255,.66);border:1px solid var(--glass-edge);
-  border-radius:var(--r-md);padding:9px 14px 9px 11px;cursor:pointer;
-  box-shadow:var(--shadow-sm);
-  transition:background .15s var(--ease),transform .12s,box-shadow .15s,border-color .15s;
-}
-.basis button:hover{background:#fff;transform:translateY(-1px);box-shadow:var(--shadow-md)}
-.basis button:active{transform:scale(.97)}
-.basis button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.basis button.active{border-color:rgba(179,64,42,.5);background:#fff;
-  box-shadow:0 0 0 3px rgba(179,64,42,.14), var(--shadow-sm)}
-.bs-check{
-  width:16px;height:16px;border-radius:50%;border:1.5px solid rgba(0,0,0,.28);flex:0 0 auto;
-  display:inline-flex;align-items:center;justify-content:center;background:#fff;
-  transition:background .15s,border-color .15s;
-}
-.basis button.active .bs-check{background:var(--accent);border-color:var(--accent)}
-.basis button.active .bs-check::after{
-  content:"";width:8px;height:4.5px;border-left:2px solid #fff;border-bottom:2px solid #fff;
-  transform:rotate(-45deg) translate(0.5px,-1px);
-}
-.bs-txt{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;text-align:left}
-.bs-txt b{font-weight:800;font-size:14.5px;color:var(--ink)}
-.bs-txt i{font-style:normal;font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
-.sb-hint{font-size:10.5px;font-weight:600;color:var(--ink-2);display:flex;align-items:center;gap:5px}
-.sb-hint::before{content:"↻";font-size:11px;color:var(--accent)}
 
 /* canvas caption row under the floating band */
 .stage-foot{

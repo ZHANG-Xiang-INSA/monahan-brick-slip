@@ -181,7 +181,7 @@
       subEl.textContent = e.sub || "";
       idxEl.textContent = (idx + 1) + " / " + list.length;
       dlEl.href = e.src;
-      dlEl.setAttribute("download", e.src.split("/").pop());
+      dlEl.setAttribute("download", e.src.split("?")[0].split("/").pop());
       var done = function () {
         // elevation SVGs carry only a viewBox — naturalWidth is unreliable
         // there, so prefer the catalogued sheet size when provided

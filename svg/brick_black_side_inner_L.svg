@@ -266,19 +266,20 @@
 <polygon points="129.5,94.8 156.2,94.8 156.2,86.0 129.5,86.0" fill="#5C442D" stroke="#5a5a5a" stroke-width="0.3"/>
 <text x="180" y="92" font-size="13" font-weight="bold" fill="#111">Type ID 图例 Legend (this face)</text>
 <rect x="180" y="104" width="15" height="11" fill="#1F5F8B" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="114" font-size="11.5" fill="#222">B15  215×65  ×160</text>
+<text x="201" y="114" font-size="11.5" fill="#222">B15  215×64.9–65  ×160</text>
 <rect x="180" y="123" width="15" height="11" fill="#7D4668" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="133" font-size="11.5" fill="#222">B16  215×48  ×2</text>
+<text x="201" y="133" font-size="11.5" fill="#222">B16  215×46–50  ×2</text>
 <rect x="180" y="142" width="15" height="11" fill="#167A74" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="152" font-size="11.5" fill="#222">B17  152×65  ×32</text>
+<text x="201" y="152" font-size="11.5" fill="#222">B17  152.5×65  ×32</text>
 <rect x="180" y="161" width="15" height="11" fill="#5C442D" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="171" font-size="11.5" fill="#222">B20  152×50  ×1</text>
+<text x="201" y="171" font-size="11.5" fill="#222">B20  152.5×50  ×1</text>
 <rect x="180" y="180" width="15" height="11" fill="#B85C00" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="190" font-size="11.5" fill="#222">B21  108×65  ×32</text>
+<text x="201" y="190" font-size="11.5" fill="#222">B21  104.6–107.5×64.9–65  ×32</text>
 <rect x="180" y="199" width="15" height="11" fill="#2F576B" stroke="#555" stroke-width="0.4"/>
-<text x="201" y="209" font-size="11.5" fill="#222">B23  108×50  ×1</text>
+<text x="201" y="209" font-size="11.5" fill="#222">B23  107.5×50  ×1</text>
 <rect x="180" y="218" width="15" height="11" fill="#4A6B2A" stroke="#555" stroke-width="0.4"/>
 <text x="201" y="228" font-size="11.5" fill="#222">B26  45×65  ×32</text>
+<text x="180" y="249" font-size="9" fill="#777">型号按 ±5 mm 归并,尺寸为实际区间 · Type IDs grouped to ±5 mm; sizes are the true range</text>
 <rect x="30" y="970.0" width="43.8" height="6" fill="#111"/>
 <rect x="73.8" y="970.0" width="43.8" height="6" fill="#999"/>
 <text x="30" y="966.0" font-size="11" fill="#111">0</text>

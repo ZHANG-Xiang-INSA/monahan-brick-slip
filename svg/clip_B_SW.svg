@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 480" font-family="Arial,'Noto Sans SC',sans-serif">
 <rect x="0" y="0" width="1784" height="480" fill="#ffffff"/>
+<defs><pattern id="adhesive" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#F3E7F8"/><line x1="0" y1="0" x2="0" y2="4" stroke="#7A3E9D" stroke-width="1.2"/></pattern></defs>
 <text x="30" y="30" font-size="20" font-weight="bold" fill="#111">Clip layout 卡扣排布 — Wall B — SW side elevation</text>
 <text x="30" y="54" font-size="13" fill="#444">B墙 — 西南侧立面 · 511 clips 卡扣 · 2896 screws 螺钉 (1 hole = 1 screw 每孔一钉)</text>
 <text x="30" y="72" font-size="11" fill="#888">3 Monahan Ave (HA23007) · black-corners-flat revision · dims mm</text>
@@ -1736,9 +1737,9 @@
 <polygon points="1254.5,94.1 1279.1,94.1 1279.1,101.5 1254.5,101.5" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1280.2,94.1 1304.8,94.1 1304.8,101.5 1280.2,101.5" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="1305.9,94.1 1330.0,94.1 1330.0,101.5 1305.9,101.5" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="55.7,86.0 80.3,86.0 80.3,93.0 55.7,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="81.4,86.0 106.0,86.0 106.0,93.0 81.4,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="107.2,86.0 131.7,86.0 131.7,93.0 107.2,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="55.7,86.0 80.3,86.0 80.3,93.0 55.7,93.0" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="81.4,86.0 106.0,86.0 106.0,93.0 81.4,93.0" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
+<polygon points="107.2,86.0 131.7,86.0 131.7,93.0 107.2,93.0" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="132.9,86.0 157.5,86.0 157.5,93.0 132.9,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="158.6,86.0 183.2,86.0 183.2,93.0 158.6,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="184.3,86.0 208.9,86.0 208.9,93.0 184.3,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
@@ -1824,7 +1825,7 @@
 <polygon points="32.3,111.3 44.6,111.3 44.6,118.7 32.3,118.7" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="30.0,102.7 54.6,102.7 54.6,110.1 30.0,110.1" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
 <polygon points="32.3,94.1 44.6,94.1 44.6,101.5 32.3,101.5" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
-<polygon points="30.0,88.3 54.6,88.3 54.6,93.0 30.0,93.0" fill="#e7e7e7" stroke="#cfcfcf" stroke-width="0.3"/>
+<polygon points="30.0,88.3 54.6,88.3 54.6,93.0 30.0,93.0" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.8"/>
 <polygon points="32.3,418.7 146.6,418.7 146.6,411.0 32.3,411.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="147.2,418.7 261.5,418.7 261.5,411.0 147.2,411.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
 <polygon points="262.0,418.7 376.3,418.7 376.3,411.0 262.0,411.0" fill="#B3402A" fill-opacity="0.92" stroke="#222" stroke-width="0.4"/>
@@ -2357,7 +2358,9 @@
 <text x="1375" y="190" font-size="11.5" fill="#222">R100  L=100mm  ×82  2 holes/clip → 164 screws</text>
 <rect x="1354" y="199" width="15" height="11" fill="#2B4B9B" stroke="#555" stroke-width="0.4"/>
 <text x="1375" y="209" font-size="11.5" fill="#222">R50  L=50mm  ×22  2 holes/clip → 44 screws</text>
-<text x="1354" y="230" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
+<rect x="1354" y="218" width="15" height="11" fill="url(#adhesive)" stroke="#7A3E9D" stroke-width="0.9"/>
+<text x="1375" y="228" font-size="11.5" fill="#222">胶粘固定 adhesive-fixed  ×4  (no rail possible 无法安装卡扣)</text>
+<text x="1354" y="249" font-size="11.5" fill="#264A26">Note: 1 hole = 1 screw 每孔配一颗螺钉</text>
 <rect x="30" y="452.7" width="57.2" height="6" fill="#111"/>
 <rect x="87.2" y="452.7" width="57.2" height="6" fill="#999"/>
 <text x="30" y="448.7" font-size="11" fill="#111">0</text>

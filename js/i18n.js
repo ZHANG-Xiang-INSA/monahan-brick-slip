@@ -14,13 +14,9 @@
     hi_red:        { zh: "红砖 Red brick", en: "Red brick 红砖" },
     hi_black:      { zh: "黑砖 Black brick", en: "Black brick 黑砖" },
     hi_steel:      { zh: "钢卡扣 Steel clip", en: "Steel clip 钢卡扣" },
-    hi_exact:      { zh: "刚好", en: "Exact" },
-    hi_surplus:    { zh: "+15%", en: "+15%" },
-    hi_basis:      { zh: "用量口径 · BASIS", en: "Quantity basis" },
-    hi_exact_sub:  { zh: "EXACT", en: "as modelled" },
-    hi_surplus_sub:{ zh: "含富余", en: "with surplus" },
-    hi_hint:       { zh: "点击切换 · 数量实时更新", en: "Click to switch — counts update live" },
-    hi_note:       { zh: "砖 / 卡扣件数（+15% 为含富余估值）· 详见材料用量", en: "Brick / clip piece counts (+15% = with-surplus estimate) · see Materials" },
+    hi_basis:      { zh: "工程量 · TAKE-OFF", en: "Take-off" },
+    hi_note:       { zh: "设计数量,与下方各表逐项一致。采购富余在「材料用量」一节按 +15% 计。",
+                     en: "As set out; every schedule below reconciles to these. Procurement surplus is applied at +15% under Materials." },
     hi_faces_u:    { zh: "面", en: "faces" },
 
     // hero

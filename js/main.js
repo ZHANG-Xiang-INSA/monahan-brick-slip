@@ -44,14 +44,14 @@
   ];
   // drawing sheet sizes (viewBox px) — the elevation SVGs carry no width/height
   var SVG_SIZE = {
-    A_NE: [1784, 423], B_SW: [1784, 485], C_NW: [1784, 473], D_SE: [1784, 941],
+    A_NE: [1784, 423], B_SW: [1784, 480], C_NW: [1784, 473], D_SE: [1784, 941],
     black_gable_front: [919, 998], black_slope_L: [810, 998], black_slope_R: [810, 998],
     black_side_outer_L: [600, 998], black_side_outer_R: [600, 998],
     black_side_inner_L: [610, 998], black_side_inner_R: [610, 998]
   };
   FACES.forEach(function (f) {
-    f.brickSvg = "svg/brick_" + f.id + ".svg";
-    f.clipSvg = "svg/clip_" + f.id + ".svg";
+    f.brickSvg = "svg/brick_" + f.id + ".svg?b=41";
+    f.clipSvg = "svg/clip_" + f.id + ".svg?b=41";
     f.size = SVG_SIZE[f.id];
   });
   function faceByCode(code) {
@@ -88,8 +88,8 @@
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_brick"), src: f.brickSvg, key: f.code + "|bricks", w: f.size[0], h: f.size[1] });
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_clip"), src: f.clipSvg, key: f.code + "|clips", w: f.size[0], h: f.size[1] });
     });
-    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: T("cut_bricks_sub"), src: "svg/cut_brick_types.svg", key: "cut1", w: 2134, h: 1736 });
-    out.push({ code: "CUT-02", name: T("cut_clips"), sub: T("cut_clips_sub"), src: "svg/cut_clip_types.svg?b=38", key: "cut2", w: 2000, h: 2218 });
+    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: T("cut_bricks_sub"), src: "svg/cut_brick_types.svg?b=41", key: "cut1", w: 2224, h: 1531 });
+    out.push({ code: "CUT-02", name: T("cut_clips"), sub: T("cut_clips_sub"), src: "svg/cut_clip_types.svg?b=41", key: "cut2", w: 2000, h: 2218 });
     return out;
   }
   function openViewerAt(key) {
@@ -189,6 +189,17 @@
   }
 
   // ---------- schedule tables ----------
+  // A type ID groups slips to ±5 mm, so a single figure cannot describe it. Print the true
+  // extent from wr/hr and fall back to the mean only for data built before those keys existed.
+  function dim(range, mean) {
+    if (!range || range.length !== 2) return String(mean);
+    var lo = Math.round(range[0] * 100) / 100, hi = Math.round(range[1] * 100) / 100;
+    return lo === hi ? String(lo) : lo + "–" + hi;
+  }
+  function sizeLabel(r) {
+    return dim(r.wr, r.w) + " × " + dim(r.hr, r.h);
+  }
+
   function sortRows(rows, s, numCols) {
     var r = rows.slice();
     r.sort(function (a, b) {
@@ -213,7 +224,9 @@
       }).join("") + "</tr>";
     }
     if (kind === "bricks") {
-      rows = (d.bricks || []).map(function (r) { return [r.type_id, r.w + " × " + r.h, r.qty, r.w * r.h]; });
+      // Type IDs group slips to ±5 mm, so print the true extent. r.w/r.h are the cluster
+      // mean and for eight types match no slip that was actually placed.
+      rows = (d.bricks || []).map(function (r) { return [r.type_id, sizeLabel(r), r.qty, r.w * r.h]; });
       rows = sortRows(rows, s, [2, 3]);
       total = (d.bricks || []).reduce(function (a, r) { return a + r.qty; }, 0);
       html = '<table class="spec"><caption>' + T("tbl_bricks") + "</caption><thead>" +
@@ -439,21 +452,12 @@
       });
     }
 
-    // hero material-card exact/+15% toggle (scales the piece counts)
-    var hiSeg = document.querySelectorAll("#hi-seg button");
-    function applyHiMult(mult) {
-      var qs = document.querySelectorAll(".hero-index .hi-q");
-      for (var i = 0; i < qs.length; i++) {
-        var base = Number(qs[i].getAttribute("data-base")) || 0;
-        qs[i].textContent = Math.round(base * mult).toLocaleString("en-US");
-      }
-    }
-    for (var hsi = 0; hsi < hiSeg.length; hsi++) {
-      hiSeg[hsi].addEventListener("click", function () {
-        for (var hj = 0; hj < hiSeg.length; hj++) hiSeg[hj].classList.toggle("active", hiSeg[hj] === this);
-        applyHiMult(parseFloat(this.getAttribute("data-mult")));
-      });
-    }
+    // The hero band prints the take-off quantities and nothing else. It used to carry a
+    // second +15% surplus toggle that rewrote those five figures alone, leaving the face
+    // list, all 11 schedule tables, the footer, the 3D chip and the materials table (which
+    // owns the real surplus control, #mat-seg) on the exact basis - so the page could show
+    // 8,676 slips above a schedule totalling 7,544. Surplus is a procurement allowance and
+    // now lives only in the materials section.
 
     window.addEventListener("hashchange", handleHash);
 

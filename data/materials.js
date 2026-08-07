@@ -1,5 +1,6 @@
-/* Material take-off data. Regenerated 2026-08-04 with the D_SE wall re-laid to the
-   architect's drawn extent (WD300 South / WD215), so red is 5,792 not 5,964.
+/* Material take-off data. Regenerated 2026-08-07: the six rainwater-chase cuts were
+   reverted and the walls now run continuously past the downpipes, so red is 5,811
+   (549 + 2,195 + 2,743 whole, 32 + 130 + 162 half) and black 1,733 (1,230 + 503).
    Recipe is PER 47mm brick. Each 215x65x47 brick is sliced (losing a 3mm kerf)
    into TWO 22mm slips, so: bricks_to_make = equivalent-whole-slips / 2, and
    material = bricks_to_make x recipe. Equivalent-whole-slip = whole + half/2.
