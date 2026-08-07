@@ -51,6 +51,7 @@
     btn_fit:       { zh: "适应窗口", en: "Fit View" },
     btn_fs:        { zh: "全屏", en: "Fullscreen" },
     btn_fs_exit:   { zh: "退出全屏", en: "Exit Fullscreen" },
+    v_ghost:       { zh: "透视", en: "X-ray" },
     v_labels:      { zh: "标注", en: "Labels" },
     v_help:        { zh: "左键拖动旋转 · 滚轮缩放 · 右键平移 · 点击墙面跳转对应立面", en: "Drag to orbit · wheel to zoom · right-drag to pan · click a wall to open its elevation" },
     v_loading:     { zh: "正在构建模型几何…", en: "Building model geometry…" },

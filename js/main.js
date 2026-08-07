@@ -50,8 +50,8 @@
     black_side_inner_L: [610, 998], black_side_inner_R: [610, 998]
   };
   FACES.forEach(function (f) {
-    f.brickSvg = "svg/brick_" + f.id + ".svg?b=43";
-    f.clipSvg = "svg/clip_" + f.id + ".svg?b=43";
+    f.brickSvg = "svg/brick_" + f.id + ".svg?b=44";
+    f.clipSvg = "svg/clip_" + f.id + ".svg?b=44";
     f.size = SVG_SIZE[f.id];
   });
   function faceByCode(code) {
@@ -94,8 +94,8 @@
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_brick"), src: f.brickSvg, key: f.code + "|bricks", w: f.size[0], h: f.size[1] });
       out.push({ code: f.code, name: f.zh + " · " + f.en, sub: T("kind_clip"), src: f.clipSvg, key: f.code + "|clips", w: f.size[0], h: f.size[1] });
     });
-    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: subWithCount("cut_bricks_sub", N_BRICK_TYPES), src: "svg/cut_brick_types.svg?b=43", key: "cut1", w: 2224, h: 1531 });
-    out.push({ code: "CUT-02", name: T("cut_clips"), sub: subWithCount("cut_clips_sub", N_CLIP_TYPES), src: "svg/cut_clip_types.svg?b=43", key: "cut2", w: 2000, h: 2218 });
+    out.push({ code: "CUT-01", name: T("cut_bricks"), sub: subWithCount("cut_bricks_sub", N_BRICK_TYPES), src: "svg/cut_brick_types.svg?b=44", key: "cut1", w: 2224, h: 1531 });
+    out.push({ code: "CUT-02", name: T("cut_clips"), sub: subWithCount("cut_clips_sub", N_CLIP_TYPES), src: "svg/cut_clip_types.svg?b=44", key: "cut2", w: 2000, h: 2218 });
     return out;
   }
   function openViewerAt(key) {
@@ -553,9 +553,15 @@
 
     function applyView(view) {
       if (!viewer) return;
+      // X-ray exists to show the rails through the slips, so it keeps the clip layer on
+      // whatever else is selected; without that, ghosting a brick-only preset reveals
+      // nothing behind it.
+      var gh = document.getElementById("v-ghost");
+      var ghost = !!(gh && gh.checked);
       viewer.setLayer("red", view === "all" || view === "red");
       viewer.setLayer("black", view === "all" || view === "black");
-      viewer.setLayer("clip", view === "all" || view === "clip");
+      viewer.setLayer("clip", ghost || view === "all" || view === "clip");
+      viewer.setGhost(ghost);
     }
     function bootViewer() {
       viewer = window.initViewer3D({
@@ -591,6 +597,11 @@
         applyView(this.getAttribute("data-view"));
       });
     }
+    var vGhost = document.getElementById("v-ghost");
+    if (vGhost) vGhost.addEventListener("change", function () {
+      var act = document.querySelector("#v-seg button.active");
+      applyView(act ? act.getAttribute("data-view") : "all");
+    });
     var vLabels = document.getElementById("v-labels");
     if (vLabels) vLabels.addEventListener("change", function () {
       if (viewer) viewer.setLabels(this.checked);

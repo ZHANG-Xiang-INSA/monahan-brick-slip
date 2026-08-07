@@ -530,21 +530,43 @@
         var envC = document.createElement("canvas");
         envC.width = 1024; envC.height = 512;
         var eg = envC.getContext("2d");
-        var vgr = eg.createLinearGradient(0, 0, 0, 512);
-        vgr.addColorStop(0.00, "#2a3a50");   // cold zenith
-        vgr.addColorStop(0.38, "#45607f");   // upper sky
-        vgr.addColorStop(0.50, "#e8f2fa");   // luminous pale horizon
-        vgr.addColorStop(0.62, "#55616c");   // low band
-        vgr.addColorStop(1.00, "#333b44");   // nadir (cool ground bounce)
-        eg.fillStyle = vgr; eg.fillRect(0, 0, 1024, 512);
+        // three.js samples an equirect with its pole on +Y, but this scene is Z-up, so a
+        // plain top-to-bottom gradient lands the luminous horizon band on world -Z. That is
+        // exactly where the two canopy soffits point, which lit them like polished metal
+        // while the walls sat in the dark poles. Paint each texel from its own world Z.
+        var STOPS = [[0.00, 42, 58, 80], [0.38, 69, 96, 127], [0.50, 232, 242, 250],
+                     [0.62, 85, 97, 108], [1.00, 51, 59, 68]];
+        function rampAt(t) {
+          for (var s = 1; s < STOPS.length; s++) {
+            if (t <= STOPS[s][0] || s === STOPS.length - 1) {
+              var a0 = STOPS[s - 1], a1 = STOPS[s];
+              var k = (t - a0[0]) / Math.max(1e-6, a1[0] - a0[0]);
+              k = k < 0 ? 0 : k > 1 ? 1 : k;
+              return [a0[1] + (a1[1] - a0[1]) * k, a0[2] + (a1[2] - a0[2]) * k,
+                      a0[3] + (a1[3] - a0[3]) * k];
+            }
+          }
+          return [0, 0, 0];
+        }
+        var eimg = eg.createImageData(1024, 512), epx = eimg.data, ex, ey;
+        for (ey = 0; ey < 512; ey++) {
+          var ephi = (ey + 0.5) / 512 * Math.PI, esp = Math.sin(ephi);
+          for (ex = 0; ex < 1024; ex++) {
+            var eth = (ex + 0.5) / 1024 * Math.PI * 2;
+            var ewz = esp * Math.sin(eth);          // world Z of this texel's direction
+            var ec = rampAt((1 - ewz) * 0.5), eo = (ey * 1024 + ex) * 4;
+            epx[eo] = ec[0]; epx[eo + 1] = ec[1]; epx[eo + 2] = ec[2]; epx[eo + 3] = 255;
+          }
+        }
+        eg.putImageData(eimg, 0, 0);
         function envBlob(cx, cy, r, col, a) {
           var rgr = eg.createRadialGradient(cx, cy, 0, cx, cy, r);
           rgr.addColorStop(0, "rgba(" + col + "," + a + ")");
           rgr.addColorStop(1, "rgba(" + col + ",0)");
           eg.fillStyle = rgr; eg.fillRect(0, 0, 1024, 512);
         }
-        envBlob(512, 250, 280, "255,244,220", 0.9);    // pale low sun behind the model (backlight)
-        envBlob(80, 130, 280, "159,180,200", 0.30);    // soft cool bounce opposite
+        envBlob(768, 256, 280, "255,244,220", 0.9);    // pale low sun, now on the equator
+        envBlob(256, 256, 280, "159,180,200", 0.30);   // soft cool bounce opposite
         var envTex = new THREE.CanvasTexture(envC);
         envTex.mapping = THREE.EquirectangularReflectionMapping;
         if (THREE.sRGBEncoding !== undefined) envTex.encoding = THREE.sRGBEncoding;
@@ -560,6 +582,7 @@
       scene.fog = new THREE.Fog(fogCol, diag * 1.7, diag * 4.6);   // ground fades out before the disc rim
 
       var hemi = new THREE.HemisphereLight(0xc9d8e4, 0x5a4f46, 0.52); // cold sky / neutral-warm ground bounce
+      hemi.position.set(0, 0, 1);   // this scene is Z-up (camera.up above); three.js defaults the sky to +Y
       scene.add(hemi);
       var key = new THREE.DirectionalLight(0xffefd6, 1.15);          // pale low sun BEHIND the model (contre-jour)
       key.position.set(center.x + diag * 0.95, center.y + diag * 0.6, center.z + diag * 0.24);
@@ -809,6 +832,25 @@
         labelCount: labelDefs.length,
         setLayer: function (layer, on) { groups[layer].visible = on; invalidate(); },
         setLabels: function (on) { labelGroup.visible = !!on; invalidate(); },
+        // X-ray: the slips go translucent so the rails behind them can be read in
+        // place. depthWrite off keeps a slip from hiding the slip or rail behind it,
+        // and the shadow is dropped with it - a ghosted wall casting a solid shadow
+        // reads as a bug.
+        setGhost: function (on) {
+          matBrick.transparent = !!on;
+          matBrick.opacity = on ? 0.26 : 1;
+          matBrick.depthWrite = !on;
+          matBrick.needsUpdate = true;
+          // the rail is the point of this mode, so lift it out of the tint: matt it
+          // down from metal (which just mirrors the dark sky) and let it self-light.
+          matClip.metalness = on ? 0.25 : 0.92;
+          matClip.roughness = on ? 0.55 : 0.33;
+          matClip.emissive.setRGB(on ? 0.11 : 0, on ? 0.125 : 0, on ? 0.14 : 0);
+          matClip.needsUpdate = true;
+          groups.red.traverse(function (m) { if (m.isMesh) m.castShadow = !on; });
+          groups.black.traverse(function (m) { if (m.isMesh) m.castShadow = !on; });
+          invalidate();
+        },
         refreshLabels: function () { // re-paint in the current language
           for (var i = 0; i < labelGroup.children.length; i++) paintLabel(labelGroup.children[i]);
           invalidate();
